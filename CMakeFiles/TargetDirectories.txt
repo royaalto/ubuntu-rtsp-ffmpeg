@@ -1,0 +1,3 @@
+/home/roy/delete/myRtspClient/CMakeFiles/rebuild_cache.dir
+/home/roy/delete/myRtspClient/CMakeFiles/edit_cache.dir
+/home/roy/delete/myRtspClient/CMakeFiles/test.dir
