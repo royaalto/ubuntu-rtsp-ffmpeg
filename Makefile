@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roy/delete/myRtspClient
+CMAKE_SOURCE_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roy/delete/myRtspClient
+CMAKE_BINARY_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/CMakeFiles /home/roy/delete/myRtspClient/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-onlyrtsp.o: onlyrtsp.cpp.o
+FF_SDL2_visual.o: FF_SDL2_visual.cpp.o
 
-.PHONY : onlyrtsp.o
+.PHONY : FF_SDL2_visual.o
 
 # target to build an object file
-onlyrtsp.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/onlyrtsp.cpp.o
-.PHONY : onlyrtsp.cpp.o
+FF_SDL2_visual.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/FF_SDL2_visual.cpp.o
+.PHONY : FF_SDL2_visual.cpp.o
 
-onlyrtsp.i: onlyrtsp.cpp.i
+FF_SDL2_visual.i: FF_SDL2_visual.cpp.i
 
-.PHONY : onlyrtsp.i
+.PHONY : FF_SDL2_visual.i
 
 # target to preprocess a source file
-onlyrtsp.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/onlyrtsp.cpp.i
-.PHONY : onlyrtsp.cpp.i
+FF_SDL2_visual.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/FF_SDL2_visual.cpp.i
+.PHONY : FF_SDL2_visual.cpp.i
 
-onlyrtsp.s: onlyrtsp.cpp.s
+FF_SDL2_visual.s: FF_SDL2_visual.cpp.s
 
-.PHONY : onlyrtsp.s
+.PHONY : FF_SDL2_visual.s
 
 # target to generate assembly for a file
-onlyrtsp.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/onlyrtsp.cpp.s
-.PHONY : onlyrtsp.cpp.s
+FF_SDL2_visual.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/FF_SDL2_visual.cpp.s
+.PHONY : FF_SDL2_visual.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... onlyrtsp.o"
-	@echo "... onlyrtsp.i"
-	@echo "... onlyrtsp.s"
+	@echo "... FF_SDL2_visual.o"
+	@echo "... FF_SDL2_visual.i"
+	@echo "... FF_SDL2_visual.s"
 .PHONY : help
 
 

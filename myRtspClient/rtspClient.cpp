@@ -56,7 +56,7 @@ extern NALUTypeBase_H265 NaluBaseType_H265Obj;
 
 #define MEDIA_BUFSIZ 8192
 
-/* example: 
+/* example:
  * rtsp://admin:12345@172.6.22.106:554/h264/ch33/main/av_stream
  ***/
 const string RtspClient::PatternRtspUriWithUserPwd("(rtsp://)(.+):(.*)@(.+)");
@@ -72,7 +72,7 @@ const string RtspClient::HttpHeadExpires("Expires: ");
 // const string RtspClient::HttpTunnelMsg("User-Agent: %s\r\nx-sessioncookie: %s\r\nAccept: application/x-rtsp-tunnelled\r\nPragma: no-cache\r\nCache-Control: no-cache\r\n");
 
 RtspClient::RtspClient():
-	RtspURI(""), RtspCSeq(0), RtspSockfd(-1), RtspIP(""), RtspPort(PORT_RTSP), RtspResponse(""), SDPStr(""), 
+	RtspURI(""), RtspCSeq(0), RtspSockfd(-1), RtspIP(""), RtspPort(PORT_RTSP), RtspResponse(""), SDPStr(""),
 	VPS(""), SPS(""), PPS(""), CmdPLAYSent(false), GetVideoDataCount(GET_SPS_PPS_PERIOD),
 	Username(""), Password(""), Realm(""), Nonce("")
 {
@@ -119,12 +119,12 @@ RtspClient::RtspClient():
 // 		AudioBuffer.Size = MEDIA_BUFSIZ;
 // 	if((VideoBuffer.Buf = (uint8_t *)malloc(MEDIA_BUFSIZ)))
 // 		VideoBuffer.Size = MEDIA_BUFSIZ;
-// 
+//
 // 	/* Temporary only FU_A supported */
 // 	// NALUType = new FU_A;
 // 	ByeFromServerAudioClbk = NULL;
 // 	ByeFromServerVideoClbk = NULL;
-// 
+//
 //     ObtainVpsSpsPpsPeriodly = true;
 //     UsingRtspOverHttp = false;
 // }
@@ -342,7 +342,7 @@ ErrorType RtspClient::DoPAUSE(MediaSession * media_session, bool http_tunnel_no_
 
 	Sockfd = CreateTcpSockfd();
 	if(Sockfd < 0) return RTSP_INVALID_URI;
-	
+
 	string Cmd("PAUSE");
 	stringstream Msg("");
 	Msg << Cmd << " " << RtspURI << " " << "RTSP/" << VERSION_RTSP << "\r\n";
@@ -427,7 +427,7 @@ ErrorType RtspClient::DoGET_PARAMETER(MediaSession * media_session, bool http_tu
 
 	Sockfd = CreateTcpSockfd();
 	if(Sockfd < 0) return RTSP_INVALID_URI;
-	
+
 	string Cmd("GET_PARAMETER");
 	stringstream Msg("");
 	Msg << Cmd << " " << RtspURI << " " << "RTSP/" << VERSION_RTSP << "\r\n";
@@ -499,9 +499,9 @@ ErrorType RtspClient::DoSETUP(MediaSession * media_session, bool http_tunnel_no_
 
 	Sockfd = CreateTcpSockfd();
 	if(Sockfd < 0) return RTSP_INVALID_URI;
-	
-	// "CreateUdpSockfd" is only for test. 
-	// We will use jrtplib instead later. 
+
+	// "CreateUdpSockfd" is only for test.
+	// We will use jrtplib instead later.
 	if(!SetAvailableRTPPort(media_session)) {
 		printf("No port available for RTP and RTCP\n");
 		return RTSP_UNKNOWN_ERROR;
@@ -729,7 +729,7 @@ ErrorType RtspClient::DoTEARDOWN(MediaSession * media_session, bool http_tunnel_
 
 	Sockfd = CreateTcpSockfd();
 	if(Sockfd < 0) return RTSP_INVALID_URI;
-	
+
 	string Cmd("TEARDOWN");
 	stringstream Msg("");
 	Msg << Cmd << " " << RtspURI << " " << "RTSP/" << VERSION_RTSP << "\r\n";
@@ -886,14 +886,14 @@ int RtspClient::ParseSDP(string SDP)
 			continue;
 		}
 		MediaSession NewMediaSession;
-		NewMediaSession.MediaType.assign(it1->second.mediaType); 
+		NewMediaSession.MediaType.assign(it1->second.mediaType);
 		// cout << "debug: mediaType=" << it1->second.mediaType << endl;;
 		NewMediaSession.Protocol.assign(it1->second.transProt);
 		// cout << "debug: transProt=" << it1->second.transProt << endl;;
 		/* TODO: we only use the first payload type now */
 		map<int, map<SDP_ATTR_ENUM, string> >::iterator it2 = it1->second.fmtMap.begin();
 		if(it2 != it1->second.fmtMap.end()) {
-			NewMediaSession.PayloadType.push_back(it2->first);	
+			NewMediaSession.PayloadType.push_back(it2->first);
 			if(it2->second.find(CODEC_TYPE) != it2->second.end()) {
 				NewMediaSession.EncodeType = it2->second[CODEC_TYPE];
 				// cout << "debug: EncodeType=" << NewMediaSession.EncodeType << endl;;
@@ -925,7 +925,7 @@ int RtspClient::ParseSDP(string SDP)
 			if(it2->second.find(ATTR_PPS) != it2->second.end()) {
                 PPS.assign(it2->second[ATTR_PPS]);
 			}
-			/* 'Value' could be  
+			/* 'Value' could be
 			 * 1: "rtsp://127.0.0.1/ansersion/track=1"
 			 * 2: "track=1"
 			 * If is the '2', it should be prefixed with the URI. */
@@ -967,7 +967,7 @@ int RtspClient::ParseSDP(string SDP)
 	// 	if(Key == "s") CollectMediaInfo = false;
 	// 	if(!CollectMediaInfo) continue;
 
-	// 	if(Key == "m") { 
+	// 	if(Key == "m") {
     //         /* Pattern: (MediaType) +(Ports) +(Protocol) +(PayloadType)"
     //            Example: "(audio) (0) (RTP/AVP) (14)"
 	// 		   */
@@ -1021,7 +1021,7 @@ int RtspClient::ParseSDP(string SDP)
 	// 		} else if(Regex.Regex(Value.c_str(), PatternControl.c_str(), &Group)) {
 	// 			Group.pop_front();
 	// 			string ControlURITmp("");
-	// 			/* 'Value' could be  
+	// 			/* 'Value' could be
 	// 			 * 1: "rtsp://127.0.0.1/ansersion/track=1"
 	// 			 * 2: "track=1"
 	// 			 * If is the '2', it should be prefixed with the URI. */
@@ -1054,7 +1054,7 @@ int RtspClient::ParseSDP(string SDP)
 	// 		}
 	// 	}
 	// }
-	
+
 	for(map<string, MediaSession>::iterator it = MediaSessionMap->begin(); it != MediaSessionMap->end(); it++) {
 		it->second.MediaInfoCheck();
 	}
@@ -1246,18 +1246,18 @@ int RtspClient::SetAvailableRTPPort(MediaSession * media_session, uint16_t RTP_p
 	media_session->RTCPPort = 0;
 	// media_session->RTCPSockfd = -1;
 
-	// Create RTP and RTCP udp socket 
+	// Create RTP and RTCP udp socket
 	for(RTPPort = Search_RTP_Port_From; RTPPort < 65535; RTPPort = RTPPort + 2) {
 		// Bind RTP Port
 		if((RTPSockfd = socket(AF_INET, SOCK_DGRAM, 0)) < 0) {
 			perror("CreateRTP_RTCPSockfd Error");
 			return 0;
-		}	
-		// if(setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, &flag, len) < 0) { 
+		}
+		// if(setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, &flag, len) < 0) {
 		// 	close(RTPPort);
 		// 	perror("CreateRTP_RTCPSockfd Error");
 		// 	return 0;
-		// } 
+		// }
 		bzero(&servaddr, sizeof(servaddr));
 		servaddr.sin_family = AF_INET;
 		servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
@@ -1273,13 +1273,13 @@ int RtspClient::SetAvailableRTPPort(MediaSession * media_session, uint16_t RTP_p
 			close(RTPSockfd);
 			perror("CreateRTP_RTCPSockfd Error");
 			return 0; // Create failed
-		}	
-		// if(setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, &flag, len) < 0) { 
+		}
+		// if(setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, &flag, len) < 0) {
 		// 	close(RTPPort);
 		// 	close(RTCPPort);
 		// 	perror("CreateRTP_RTCPSockfd Error");
 		// 	return 0;
-		// } 
+		// }
 		bzero(&servaddr, sizeof(servaddr));
 		servaddr.sin_family = AF_INET;
 		servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
@@ -1394,7 +1394,7 @@ int RtspClient::CheckSockWritable(int sockfd, struct timeval * tval)
 	// 		return CHECK_OK;
 	// 	}
 	// 	return CHECK_ERROR;
-	// }   
+	// }
 	// printf("Select Timeout\n");
 	// return CHECK_ERROR;
     return CHECK_OK;
@@ -1418,7 +1418,7 @@ int RtspClient::CheckSockReadable(int sockfd, struct timeval * tval)
 	// 		return CHECK_OK;
 	// 	}
 	// 	return CHECK_ERROR;
-	// }   
+	// }
 	// printf("Select Timeout\n");
 	// return CHECK_ERROR;
     return CHECK_OK;
@@ -1463,7 +1463,7 @@ ErrorType RtspClient::SendRTSP(int fd, const char * msg, size_t size)
 // 		printf("Recv Argument Error\n");
 // 		return TRANS_ERROR;
 // 	}
-// 
+//
 // 	int SendResult = 0;
 // 	int Index = 0;
 // 	int Err = TRANS_OK;
@@ -1492,7 +1492,7 @@ ErrorType RtspClient::SendRTSP(int fd, const char * msg, size_t size)
 // 			continue;
 // 		}
 // 	}
-// 
+//
 // 	return Err;
 // }
 
@@ -1714,7 +1714,7 @@ void RtspClient::UpdateXSessionCookie()
 {
     //     gettimeofday(&seedData.timestamp, NULL);
     //  seedData.counter = ++fSessionCookieCounter;
-    //  our_MD5Data((unsigned char*)(&seedData), sizeof seedData, fSessionCookie); 
+    //  our_MD5Data((unsigned char*)(&seedData), sizeof seedData, fSessionCookie);
     time_t timep;
 	char habuf[MD5_BUF_SIZE] = {0};
     time(&timep);
@@ -1767,7 +1767,7 @@ int RtspClient::ParseTimeout(string ResponseOfSETUP)
 
 bool RtspClient::IsResponse_200_OK(ErrorType * err, string * response)
 {
-	// example: 
+	// example:
 	// "RTSP/1.0 200 OK"
 
 	MyRegex Regex;
@@ -1805,13 +1805,13 @@ bool RtspClient::IsResponse_200_OK(ErrorType * err, string * response)
 	return Result;
 }
 
-uint8_t * RtspClient::GetMediaData(MediaSession * media_session, uint8_t * buf, size_t * size, size_t max_size) 
+uint8_t * RtspClient::GetMediaData(MediaSession * media_session, uint8_t * buf, size_t * size, size_t max_size)
 {
 	if(!media_session) return NULL;
 	return media_session->GetMediaData(buf, size, max_size);
 }
 
-uint8_t * RtspClient::GetMediaData(string media_type, uint8_t * buf, size_t * size, size_t max_size) 
+uint8_t * RtspClient::GetMediaData(string media_type, uint8_t * buf, size_t * size, size_t max_size)
 {
 	MyRegex Regex;
 	map<string, MediaSession>::iterator it;
@@ -1927,13 +1927,13 @@ void RtspClient::SetDestroiedClbk(string media_type, DESTROIED_CLBK clbk)
 	it->second.SetRtpDestroiedClbk(clbk);
 }
 
-uint8_t * RtspClient::GetVideoData(MediaSession * media_session, uint8_t * buf, size_t * size, size_t max_size, bool get_vps_sps_pps_periodly) 
+uint8_t * RtspClient::GetVideoData(MediaSession * media_session, uint8_t * buf, size_t * size, size_t max_size, bool get_vps_sps_pps_periodly)
 {
 	if(!media_session || !buf || !size) return NULL;
 
 	*size = 0;
 
-	const size_t GetSPS_PPS_Period = GET_SPS_PPS_PERIOD; // 30 times
+	const size_t GetSPS_PPS_Period = 20; // 30 times
 	if(true == get_vps_sps_pps_periodly) {
 		if(GetVideoDataCount >= GetSPS_PPS_Period) {
 			GetVideoDataCount = 0;
@@ -1988,7 +1988,7 @@ uint8_t * RtspClient::GetVideoData(MediaSession * media_session, uint8_t * buf, 
 			cerr << "No RTP data" << endl;
 			return NULL;
 		}
-		int NT; 
+		int NT;
 		NT = NALUTypeBaseTmp->ParseNALUHeader_Type(VideoBuffer.Buf);
 		// printf("debug: %d:%d", PM, NT);
 		NALUType = NALUTypeBaseTmp->GetNaluRtpType(PM, NT);
@@ -2054,7 +2054,7 @@ uint8_t * RtspClient::GetAudioData(MediaSession * media_session, uint8_t * buf, 
 	return buf;
 }
 
-uint8_t * RtspClient::GetMediaPacket(MediaSession * media_session, uint8_t * buf, size_t * size) 
+uint8_t * RtspClient::GetMediaPacket(MediaSession * media_session, uint8_t * buf, size_t * size)
 {
 	if(!media_session) return NULL;
 	return media_session->GetMediaPacket(buf, size);
@@ -2196,7 +2196,7 @@ uint32_t RtspClient::CheckAuth(int sockfd, string cmd, string uri)
 	Msg << cmd << " " << RtspUri << " " << "RTSP/" << VERSION_RTSP << "\r\n";
 	Msg << "CSeq: " << ++RtspCSeq << "\r\n";
 	Msg << "Authorization: Digest username=\"" << Username << "\", realm=\""
-		<< RealmTmp << "\", nonce=\"" << NonceTmp << "\", uri=\"" << uri 
+		<< RealmTmp << "\", nonce=\"" << NonceTmp << "\", uri=\"" << uri
 		<< "\", response=\"" << Md5Response << "\"\r\n";
 	Msg << "\r\n";
 	// cout << Msg.str() << endl;
@@ -2244,7 +2244,7 @@ string RtspClient::MakeMd5DigestResp(string realm, string cmd, string uri, strin
 	tmp = cmd + ":" + uri;
 	Md5sum32((void *)tmp.c_str(), (unsigned char *)ha2buf, tmp.length(), MD5_BUF_SIZE);
 	ha2buf[MD5_SIZE] = '\0';
-	
+
 	tmp.assign(ha1buf);
 	tmp = tmp + ":" + nonce + ":" + ha2buf;
 	Md5sum32((void *)tmp.c_str(), (unsigned char *)habuf, tmp.length(), MD5_BUF_SIZE);
@@ -2257,7 +2257,7 @@ string RtspClient::MakeMd5DigestResp(string realm, string cmd, string uri, strin
 
 }
 
-void RtspClient::SetRtspCmdClbk(string media_type, void (*clbk)(char * cmd)) 
+void RtspClient::SetRtspCmdClbk(string media_type, void (*clbk)(char * cmd))
 {
 	MyRegex Regex;
 	ErrorType Err = RTSP_NO_ERROR;
@@ -2272,4 +2272,3 @@ void RtspClient::SetRtspCmdClbk(string media_type, void (*clbk)(char * cmd))
         it->second.SetRtspCmdClbk(clbk);
 	}
 }
-

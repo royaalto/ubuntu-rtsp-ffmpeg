@@ -1,3 +1,3 @@
-/home/roy/delete/myRtspClient/CMakeFiles/rebuild_cache.dir
-/home/roy/delete/myRtspClient/CMakeFiles/edit_cache.dir
-/home/roy/delete/myRtspClient/CMakeFiles/test.dir
+/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/rebuild_cache.dir
+/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/edit_cache.dir
+/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/test.dir

@@ -4,7 +4,7 @@ project(test)
 add_definitions(-std=c++11)
 #add_subdirectory(./third_party/JRTPLIB jrtplib)
 #add_subdirectory(./myRtspClient)
-
+find_package(OpenCV REQUIRED)
 set(FFMPEG_INCLUDE_DIRS
 	"/usr/local/lib"
 	"/usr/local/include"
@@ -28,6 +28,11 @@ set(TEST_INCLUDE_DIRS
 	"${CMAKE_CURRENT_BINARY_DIR}/myRtspClient/jrtplib/src"
 	"/usr/include/SDL/"
     )
+set(SDL_INCLUDE
+	"/usr/include/SDL"
+
+
+)
 
 #_________add include___________#
 
@@ -36,6 +41,9 @@ include_directories(
 	${FFMPEG_INCLUDE_DIRS}
 	${SDL_INCLUDE_DIRS}
 	${SDL_IMAGE_INCLUDE_DIRS}
+	${SDL_INCLUDE}
+	${OpenCV_INCLUDE_DIR}
+	${OPENCV_INCLUDE_DIRS}
 )
 
 
@@ -47,19 +55,21 @@ set(rtsplib
 )
 
 
-add_executable(test ${CMAKE_CURRENT_BINARY_DIR}/onlyrtsp.cpp)
+add_executable(test ${CMAKE_CURRENT_BINARY_DIR}/FF_SDL2_visual.cpp)
 
 #link to the lib
 target_link_libraries(test
         ${rtsplib}
         ${OPENCV_LIBS}
         ${FFMPEG_LIBS}
-	${SDL_LIBRARIES}
-	${SDL_IMAGE_LIBRARY}
-        opencv_core opencv_highgui
+		${SDL_LIBRARIES}
+		${SDL_IMAGE_LIBRARY}
+        opencv_core opencv_imgcodecs opencv_highgui opencv_imgproc opencv_calib3d opencv_videoio
         -lm
         -lz
         -llzma
         -lbz2
+		-lSDL2
         -lpthread
+
 )

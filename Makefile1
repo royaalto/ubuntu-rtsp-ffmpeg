@@ -1,0 +1,30 @@
+# Set your own ffmpeg and myRtspClient directory
+# 
+# FFMPEG_DIR = ?
+# MYRTSPCLIENT_DIR = ?
+#
+# Example:
+# FFMPEG_DIR = /home/ansersion/Src/ffmpeg-2.8.4
+# MYRTSPCLIENT_DIR = /home/ansersion/myRtspClient
+
+TARGET = tutorial
+
+LIBS =
+INC  =
+
+LIBS += -L$(FFMPEG_DIR)/libavcodec
+LIBS += -L$(FFMPEG_DIR)/libavformat
+LIBS += -L$(FFMPEG_DIR)/libavutil
+LIBS += -L$(FFMPEG_DIR)/libswscale
+LIBS += -L$(FFMPEG_DIR)/libswresample
+LIBS += -L$(FFMPEG_DIR)/libavfilter
+LIBS += -L$(MYRTSPCLIENT_DIR)/myRtspClient
+
+INC  += -I$(FFMPEG_DIR)
+INC  += -I$(MYRTSPCLIENT_DIR)/myRtspClient/include
+
+TARGET: tutorial.cpp
+	g++ -o $(TARGET) tutorial.cpp $(INC) $(LIBS) -lpthread -lswscale -lswresample -lavutil -lavformat -lavcodec -lz -lavutil -lm -lswresample -lavcodec -lpthread -lavutil -lrt `sdl-config --cflags --libs` -D__STDC_CONSTANT_MACROS -lmyRtspClient
+
+clean:
+	-rm -rf *.o $(TARGET)

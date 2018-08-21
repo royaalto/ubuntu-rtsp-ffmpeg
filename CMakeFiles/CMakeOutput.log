@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/roy/delete/myRtspClient/CMakeFiles/3.11.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/3.11.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/roy/delete/myRtspClient/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a83d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a83d.dir/build.make CMakeFiles/cmTC_0a83d.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0a83d.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0a83d.dir/testCCompiler.c.o   -c /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_0a83d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a83d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0a83d.dir/testCCompiler.c.o  -o cmTC_0a83d 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f0f2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0f2f.dir/build.make CMakeFiles/cmTC_f0f2f.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0f2f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f0f2f.dir/testCCompiler.c.o   -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f0f2f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0f2f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f0f2f.dir/testCCompiler.c.o  -o cmTC_f0f2f 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d964/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d964.dir/build.make CMakeFiles/cmTC_5d964.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_5d964
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d964.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o  -o cmTC_5d964 
+Run Build Command:"/usr/bin/make" "cmTC_2ff58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ff58.dir/build.make CMakeFiles/cmTC_2ff58.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2ff58
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ff58.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o  -o cmTC_2ff58 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d964' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrMVv0R.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5d964 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2ff58' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxtEfjA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2ff58 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5d964/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5d964.dir/build.make CMakeFiles/cmTC_5d964.dir/build]
-  ignore line: [make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_5d964]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d964.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o  -o cmTC_5d964 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2ff58/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2ff58.dir/build.make CMakeFiles/cmTC_2ff58.dir/build]
+  ignore line: [make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2ff58]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ff58.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o  -o cmTC_2ff58 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d964' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrMVv0R.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5d964 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2ff58' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxtEfjA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2ff58 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrMVv0R.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxtEfjA.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5d964] ==> ignore
+    arg [cmTC_2ff58] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_5d964.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2ff58.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,17 +149,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_917c9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_917c9.dir/build.make CMakeFiles/cmTC_917c9.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_917c9.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_917c9.dir/feature_tests.c.o   -c /home/roy/delete/myRtspClient/CMakeFiles/feature_tests.c
-Linking C executable cmTC_917c9
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_917c9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_917c9.dir/feature_tests.c.o  -o cmTC_917c9 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bc965/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc965.dir/build.make CMakeFiles/cmTC_bc965.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc965.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_bc965.dir/feature_tests.c.o   -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bc965
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc965.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bc965.dir/feature_tests.c.o  -o cmTC_bc965 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -169,17 +169,17 @@ make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6df5b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6df5b.dir/build.make CMakeFiles/cmTC_6df5b.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6df5b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_6df5b.dir/feature_tests.c.o   -c /home/roy/delete/myRtspClient/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6df5b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6df5b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6df5b.dir/feature_tests.c.o  -o cmTC_6df5b 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_837c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_837c8.dir/build.make CMakeFiles/cmTC_837c8.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_837c8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_837c8.dir/feature_tests.c.o   -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/feature_tests.c
+Linking C executable cmTC_837c8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_837c8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_837c8.dir/feature_tests.c.o  -o cmTC_837c8 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -189,17 +189,17 @@ make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4d54/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4d54.dir/build.make CMakeFiles/cmTC_e4d54.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4d54.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e4d54.dir/feature_tests.c.o   -c /home/roy/delete/myRtspClient/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e4d54
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4d54.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e4d54.dir/feature_tests.c.o  -o cmTC_e4d54 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_794ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_794ee.dir/build.make CMakeFiles/cmTC_794ee.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_794ee.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_794ee.dir/feature_tests.c.o   -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/feature_tests.c
+Linking C executable cmTC_794ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_794ee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_794ee.dir/feature_tests.c.o  -o cmTC_794ee 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -207,30 +207,30 @@ make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ab756/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ab756.dir/build.make CMakeFiles/cmTC_ab756.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ab756.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ab756.dir/testCXXCompiler.cxx.o -c /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ab756
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab756.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ab756.dir/testCXXCompiler.cxx.o  -o cmTC_ab756 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d5b4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5b4f.dir/build.make CMakeFiles/cmTC_d5b4f.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5b4f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d5b4f.dir/testCXXCompiler.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d5b4f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5b4f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d5b4f.dir/testCXXCompiler.cxx.o  -o cmTC_d5b4f 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76dc5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76dc5.dir/build.make CMakeFiles/cmTC_76dc5.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_76dc5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76dc5.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_76dc5 
+Run Build Command:"/usr/bin/make" "cmTC_1d946/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d946.dir/build.make CMakeFiles/cmTC_1d946.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_1d946
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d946.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1d946 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -240,23 +240,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_76dc5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoBSmbe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_76dc5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1d946' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRwm63O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1d946 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_76dc5/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_76dc5.dir/build.make CMakeFiles/cmTC_76dc5.dir/build]
-  ignore line: [make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_76dc5]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76dc5.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_76dc5 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1d946/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1d946.dir/build.make CMakeFiles/cmTC_1d946.dir/build]
+  ignore line: [make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_1d946]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d946.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1d946 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -266,13 +266,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_76dc5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoBSmbe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_76dc5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1d946' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRwm63O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1d946 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccoBSmbe.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRwm63O.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -290,7 +290,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_76dc5] ==> ignore
+    arg [cmTC_1d946] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_76dc5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_1d946.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -328,17 +328,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d782/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1d782.dir/build.make CMakeFiles/cmTC_1d782.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1d782.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_1d782.dir/feature_tests.cxx.o -c /home/roy/delete/myRtspClient/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1d782
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d782.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1d782.dir/feature_tests.cxx.o  -o cmTC_1d782 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0ada7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ada7.dir/build.make CMakeFiles/cmTC_0ada7.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ada7.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_0ada7.dir/feature_tests.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0ada7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ada7.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0ada7.dir/feature_tests.cxx.o  -o cmTC_0ada7 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -401,17 +401,17 @@ make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68bdc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68bdc.dir/build.make CMakeFiles/cmTC_68bdc.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_68bdc.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_68bdc.dir/feature_tests.cxx.o -c /home/roy/delete/myRtspClient/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_68bdc
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68bdc.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_68bdc.dir/feature_tests.cxx.o  -o cmTC_68bdc 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2ce66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ce66.dir/build.make CMakeFiles/cmTC_2ce66.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ce66.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_2ce66.dir/feature_tests.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2ce66
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ce66.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2ce66.dir/feature_tests.cxx.o  -o cmTC_2ce66 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -474,17 +474,17 @@ make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83c9a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83c9a.dir/build.make CMakeFiles/cmTC_83c9a.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_83c9a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_83c9a.dir/feature_tests.cxx.o -c /home/roy/delete/myRtspClient/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_83c9a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c9a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_83c9a.dir/feature_tests.cxx.o  -o cmTC_83c9a 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2b23c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b23c.dir/build.make CMakeFiles/cmTC_2b23c.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b23c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_2b23c.dir/feature_tests.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2b23c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b23c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2b23c.dir/feature_tests.cxx.o  -o cmTC_2b23c 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -547,17 +547,17 @@ make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_acf68/fast"
-/usr/bin/make -f CMakeFiles/cmTC_acf68.dir/build.make CMakeFiles/cmTC_acf68.dir/build
-make[1]: Entering directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_acf68.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_acf68.dir/feature_tests.cxx.o -c /home/roy/delete/myRtspClient/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_acf68
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acf68.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_acf68.dir/feature_tests.cxx.o  -o cmTC_acf68 
-make[1]: Leaving directory '/home/roy/delete/myRtspClient/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a9df4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9df4.dir/build.make CMakeFiles/cmTC_a9df4.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a9df4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a9df4.dir/feature_tests.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a9df4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9df4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a9df4.dir/feature_tests.cxx.o  -o cmTC_a9df4 
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

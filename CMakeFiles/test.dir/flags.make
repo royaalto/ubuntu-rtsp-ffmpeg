@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/roy/delete/myRtspClient/./third_party/Base64_live555/include -I/home/roy/delete/myRtspClient/./third_party/md5/include -I/home/roy/delete/myRtspClient/./third_party/JRTPLIB/src -I/home/roy/delete/myRtspClient/./myRtspClient/include -I/home/roy/delete/myRtspClient/myRtspClient/jrtplib/src -I/usr/include/SDL -I/usr/local/lib -I/usr/local/include -I/usr/include/include 
+CXX_INCLUDES = -I/home/roy/delete/ubuntu-rtsp-ffmpeg/./third_party/Base64_live555/include -I/home/roy/delete/ubuntu-rtsp-ffmpeg/./third_party/md5/include -I/home/roy/delete/ubuntu-rtsp-ffmpeg/./third_party/JRTPLIB/src -I/home/roy/delete/ubuntu-rtsp-ffmpeg/./myRtspClient/include -I/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/src -I/usr/include/SDL -I/usr/local/lib -I/usr/local/include -I/usr/include/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
 

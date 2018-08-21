@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/roy/delete/myRtspClient/onlyrtsp.cpp" "/home/roy/delete/myRtspClient/CMakeFiles/test.dir/onlyrtsp.cpp.o"
+  "/home/roy/delete/ubuntu-rtsp-ffmpeg/FF_SDL2_visual.cpp" "/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/test.dir/FF_SDL2_visual.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,6 +19,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/lib"
   "/usr/local/include"
   "/usr/include/include"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
   )
 
 # Targets to which this target links.
