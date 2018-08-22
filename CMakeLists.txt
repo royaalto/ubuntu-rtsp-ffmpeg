@@ -30,8 +30,6 @@ set(TEST_INCLUDE_DIRS
     )
 set(SDL_INCLUDE
 	"/usr/include/SDL"
-
-
 )
 
 #_________add include___________#
@@ -69,7 +67,7 @@ target_link_libraries(test
         -lz
         -llzma
         -lbz2
-		-lSDL2
+	-lSDL2
         -lpthread
 
 )
