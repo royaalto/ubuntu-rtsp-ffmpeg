@@ -53,7 +53,7 @@ set(rtsplib
 )
 
 
-add_executable(test ${CMAKE_CURRENT_BINARY_DIR}/SDL2_visual.cpp)
+add_executable(test ${CMAKE_CURRENT_BINARY_DIR}/src/SDL2_visual.cpp)
 
 #link to the lib
 target_link_libraries(test
