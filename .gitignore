@@ -1,0 +1,89 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+#*.so
+#*.dylib
+#*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+#*.lai
+#*.la
+#*.a
+#*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Java
+*.java
+*.class
+*.jar
+
+# build
+build/
+
+#locals
+.mattistyle.cfg
+.uncrustify-default.cfg
+Camera.cpp
+Processing.cpp
+GenICam.cpp
+cpo
+src/node/drivers/GenICam_driver/ref/
+.tags
+GrabConsoleExampleMain.cpp
+Main.cpp
+camera_utils.h
+camera_launcher*
+*_launch_*
+*.orig
+*.test
+
+# cache
+CMakeFiles/
+Makefile
+*.cmake
+!src/master/drivers/onvif_ptz/cmake/SSIGOnvifOpenSSLUtil.cmake
+!src/master/drivers/onvif_ptz/cmake/SSIGOnvifUtil.cmake
+*Cache*
+.tags*
+
+# eclipse
+*.cproject
+*.project
+*~
+*.settings/
+template/
+Default/
+old/
+not_ready/
+
+#clion
+*.cbp
+*.idea/
+*.idea
+
+#ros
+devel/
+.catkin_tools/
+ros/.catkin_workspace
+
+#vscode
+.vscode/
