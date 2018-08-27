@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roy/delete/myRtspClient/myRtspClient
+CMAKE_SOURCE_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roy/delete/myRtspClient/myRtspClient
+CMAKE_BINARY_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/myRtspClient/CMakeFiles /home/roy/delete/myRtspClient/myRtspClient/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/myRtspClient/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -222,86 +222,86 @@ MediaSession.cpp.s:
 	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/MediaSession.cpp.s
 .PHONY : MediaSession.cpp.s
 
-home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.o: home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.o: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o
 
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.o
-
-# target to build an object file
-home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o
-
-home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.i: home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.i
-
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.i
-
-# target to preprocess a source file
-home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.i:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.i
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.i
-
-home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.s: home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.s
-
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.s
-
-# target to generate assembly for a file
-home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.s:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.s
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.s
-
-home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.o: home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o
-
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.o
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.o
 
 # target to build an object file
-home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o
 
-home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.i: home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.i
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.i: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.i
 
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.i
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.i
 
 # target to preprocess a source file
-home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.i:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.i
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.i
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.i:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.i
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.i
 
-home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.s: home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.s
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.s: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.s
 
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.s
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.s
 
 # target to generate assembly for a file
-home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.s:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.s
-.PHONY : home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.s
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.s:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.s
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.s
 
-home/roy/delete/myRtspClient/third_party/md5/md5.o: home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.o: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o
 
-.PHONY : home/roy/delete/myRtspClient/third_party/md5/md5.o
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.o
 
 # target to build an object file
-home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o
-.PHONY : home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o
 
-home/roy/delete/myRtspClient/third_party/md5/md5.i: home/roy/delete/myRtspClient/third_party/md5/md5.cpp.i
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.i: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.i
 
-.PHONY : home/roy/delete/myRtspClient/third_party/md5/md5.i
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.i
 
 # target to preprocess a source file
-home/roy/delete/myRtspClient/third_party/md5/md5.cpp.i:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/md5/md5.cpp.i
-.PHONY : home/roy/delete/myRtspClient/third_party/md5/md5.cpp.i
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.i:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.i
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.i
 
-home/roy/delete/myRtspClient/third_party/md5/md5.s: home/roy/delete/myRtspClient/third_party/md5/md5.cpp.s
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.s: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.s
 
-.PHONY : home/roy/delete/myRtspClient/third_party/md5/md5.s
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.s
 
 # target to generate assembly for a file
-home/roy/delete/myRtspClient/third_party/md5/md5.cpp.s:
-	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/md5/md5.cpp.s
-.PHONY : home/roy/delete/myRtspClient/third_party/md5/md5.cpp.s
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.s:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.s
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.s
+
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.o: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o
+
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.o
+
+# target to build an object file
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o
+
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.i: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.i
+
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.i
+
+# target to preprocess a source file
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.i:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.i
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.i
+
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.s: home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.s
+
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.s
+
+# target to generate assembly for a file
+home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.s:
+	$(MAKE) -f CMakeFiles/myRtspClient.dir/build.make CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.s
+.PHONY : home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.s
 
 mpeg4_types.o: mpeg4_types.cpp.o
 
@@ -645,15 +645,15 @@ help:
 	@echo "... MediaSession.o"
 	@echo "... MediaSession.i"
 	@echo "... MediaSession.s"
-	@echo "... home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.o"
-	@echo "... home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.i"
-	@echo "... home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.s"
-	@echo "... home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.o"
-	@echo "... home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.i"
-	@echo "... home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.s"
-	@echo "... home/roy/delete/myRtspClient/third_party/md5/md5.o"
-	@echo "... home/roy/delete/myRtspClient/third_party/md5/md5.i"
-	@echo "... home/roy/delete/myRtspClient/third_party/md5/md5.s"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.o"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.i"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.s"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.o"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.i"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.s"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.o"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.i"
+	@echo "... home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.s"
 	@echo "... mpeg4_types.o"
 	@echo "... mpeg4_types.i"
 	@echo "... mpeg4_types.s"

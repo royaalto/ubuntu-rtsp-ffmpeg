@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
 
 
 
-    const char * rtsp = "rtsp://service:1234hailee@192.168.0.22:554";
+    const char * rtsp = "rtsp://service:1234hailee@192.168.100.203:554";
     AVDictionary *optionsDict = NULL;
     av_dict_set(&optionsDict, "rtsp_transport", "tcp", 0);                //采用tcp传输
     av_dict_set(&optionsDict, "stimeout", "2000000", 0);

@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roy/delete/myRtspClient/myRtspClient
+CMAKE_SOURCE_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roy/delete/myRtspClient/myRtspClient
+CMAKE_BINARY_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/myRtspClient/CMakeFiles /home/roy/delete/myRtspClient/myRtspClient/jrtplib/src/CMakeFiles/progress.marks
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/myRtspClient/CMakeFiles 0
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/src/CMakeFiles/progress.marks
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/clean
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/preinstall
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/preinstall
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 jrtplib/src/CMakeFiles/jrtplib-static.dir/rule:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/CMakeFiles/jrtplib-static.dir/rule
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/CMakeFiles/jrtplib-static.dir/rule
 .PHONY : jrtplib/src/CMakeFiles/jrtplib-static.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ jrtplib-static: jrtplib/src/CMakeFiles/jrtplib-static.dir/rule
 
 # fast build rule for target.
 jrtplib-static/fast:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/build
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/build
 .PHONY : jrtplib-static/fast
 
 # Convenience name for target.
 jrtplib/src/CMakeFiles/jrtplib-shared.dir/rule:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/CMakeFiles/jrtplib-shared.dir/rule
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/src/CMakeFiles/jrtplib-shared.dir/rule
 .PHONY : jrtplib/src/CMakeFiles/jrtplib-shared.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ jrtplib-shared: jrtplib/src/CMakeFiles/jrtplib-shared.dir/rule
 
 # fast build rule for target.
 jrtplib-shared/fast:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/build
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/build
 .PHONY : jrtplib-shared/fast
 
 extratransmitters/rtpfaketransmitter.o: extratransmitters/rtpfaketransmitter.cpp.o
@@ -192,8 +192,8 @@ extratransmitters/rtpfaketransmitter.o: extratransmitters/rtpfaketransmitter.cpp
 
 # target to build an object file
 extratransmitters/rtpfaketransmitter.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/extratransmitters/rtpfaketransmitter.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/extratransmitters/rtpfaketransmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/extratransmitters/rtpfaketransmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/extratransmitters/rtpfaketransmitter.cpp.o
 .PHONY : extratransmitters/rtpfaketransmitter.cpp.o
 
 extratransmitters/rtpfaketransmitter.i: extratransmitters/rtpfaketransmitter.cpp.i
@@ -202,8 +202,8 @@ extratransmitters/rtpfaketransmitter.i: extratransmitters/rtpfaketransmitter.cpp
 
 # target to preprocess a source file
 extratransmitters/rtpfaketransmitter.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/extratransmitters/rtpfaketransmitter.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/extratransmitters/rtpfaketransmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/extratransmitters/rtpfaketransmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/extratransmitters/rtpfaketransmitter.cpp.i
 .PHONY : extratransmitters/rtpfaketransmitter.cpp.i
 
 extratransmitters/rtpfaketransmitter.s: extratransmitters/rtpfaketransmitter.cpp.s
@@ -212,8 +212,8 @@ extratransmitters/rtpfaketransmitter.s: extratransmitters/rtpfaketransmitter.cpp
 
 # target to generate assembly for a file
 extratransmitters/rtpfaketransmitter.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/extratransmitters/rtpfaketransmitter.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/extratransmitters/rtpfaketransmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/extratransmitters/rtpfaketransmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/extratransmitters/rtpfaketransmitter.cpp.s
 .PHONY : extratransmitters/rtpfaketransmitter.cpp.s
 
 rtcpapppacket.o: rtcpapppacket.cpp.o
@@ -222,8 +222,8 @@ rtcpapppacket.o: rtcpapppacket.cpp.o
 
 # target to build an object file
 rtcpapppacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpapppacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpapppacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpapppacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpapppacket.cpp.o
 .PHONY : rtcpapppacket.cpp.o
 
 rtcpapppacket.i: rtcpapppacket.cpp.i
@@ -232,8 +232,8 @@ rtcpapppacket.i: rtcpapppacket.cpp.i
 
 # target to preprocess a source file
 rtcpapppacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpapppacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpapppacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpapppacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpapppacket.cpp.i
 .PHONY : rtcpapppacket.cpp.i
 
 rtcpapppacket.s: rtcpapppacket.cpp.s
@@ -242,8 +242,8 @@ rtcpapppacket.s: rtcpapppacket.cpp.s
 
 # target to generate assembly for a file
 rtcpapppacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpapppacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpapppacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpapppacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpapppacket.cpp.s
 .PHONY : rtcpapppacket.cpp.s
 
 rtcpbyepacket.o: rtcpbyepacket.cpp.o
@@ -252,8 +252,8 @@ rtcpbyepacket.o: rtcpbyepacket.cpp.o
 
 # target to build an object file
 rtcpbyepacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpbyepacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpbyepacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpbyepacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpbyepacket.cpp.o
 .PHONY : rtcpbyepacket.cpp.o
 
 rtcpbyepacket.i: rtcpbyepacket.cpp.i
@@ -262,8 +262,8 @@ rtcpbyepacket.i: rtcpbyepacket.cpp.i
 
 # target to preprocess a source file
 rtcpbyepacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpbyepacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpbyepacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpbyepacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpbyepacket.cpp.i
 .PHONY : rtcpbyepacket.cpp.i
 
 rtcpbyepacket.s: rtcpbyepacket.cpp.s
@@ -272,8 +272,8 @@ rtcpbyepacket.s: rtcpbyepacket.cpp.s
 
 # target to generate assembly for a file
 rtcpbyepacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpbyepacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpbyepacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpbyepacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpbyepacket.cpp.s
 .PHONY : rtcpbyepacket.cpp.s
 
 rtcpcompoundpacket.o: rtcpcompoundpacket.cpp.o
@@ -282,8 +282,8 @@ rtcpcompoundpacket.o: rtcpcompoundpacket.cpp.o
 
 # target to build an object file
 rtcpcompoundpacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacket.cpp.o
 .PHONY : rtcpcompoundpacket.cpp.o
 
 rtcpcompoundpacket.i: rtcpcompoundpacket.cpp.i
@@ -292,8 +292,8 @@ rtcpcompoundpacket.i: rtcpcompoundpacket.cpp.i
 
 # target to preprocess a source file
 rtcpcompoundpacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacket.cpp.i
 .PHONY : rtcpcompoundpacket.cpp.i
 
 rtcpcompoundpacket.s: rtcpcompoundpacket.cpp.s
@@ -302,8 +302,8 @@ rtcpcompoundpacket.s: rtcpcompoundpacket.cpp.s
 
 # target to generate assembly for a file
 rtcpcompoundpacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacket.cpp.s
 .PHONY : rtcpcompoundpacket.cpp.s
 
 rtcpcompoundpacketbuilder.o: rtcpcompoundpacketbuilder.cpp.o
@@ -312,8 +312,8 @@ rtcpcompoundpacketbuilder.o: rtcpcompoundpacketbuilder.cpp.o
 
 # target to build an object file
 rtcpcompoundpacketbuilder.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacketbuilder.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacketbuilder.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacketbuilder.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacketbuilder.cpp.o
 .PHONY : rtcpcompoundpacketbuilder.cpp.o
 
 rtcpcompoundpacketbuilder.i: rtcpcompoundpacketbuilder.cpp.i
@@ -322,8 +322,8 @@ rtcpcompoundpacketbuilder.i: rtcpcompoundpacketbuilder.cpp.i
 
 # target to preprocess a source file
 rtcpcompoundpacketbuilder.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacketbuilder.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacketbuilder.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacketbuilder.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacketbuilder.cpp.i
 .PHONY : rtcpcompoundpacketbuilder.cpp.i
 
 rtcpcompoundpacketbuilder.s: rtcpcompoundpacketbuilder.cpp.s
@@ -332,8 +332,8 @@ rtcpcompoundpacketbuilder.s: rtcpcompoundpacketbuilder.cpp.s
 
 # target to generate assembly for a file
 rtcpcompoundpacketbuilder.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacketbuilder.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacketbuilder.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpcompoundpacketbuilder.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpcompoundpacketbuilder.cpp.s
 .PHONY : rtcpcompoundpacketbuilder.cpp.s
 
 rtcppacket.o: rtcppacket.cpp.o
@@ -342,8 +342,8 @@ rtcppacket.o: rtcppacket.cpp.o
 
 # target to build an object file
 rtcppacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacket.cpp.o
 .PHONY : rtcppacket.cpp.o
 
 rtcppacket.i: rtcppacket.cpp.i
@@ -352,8 +352,8 @@ rtcppacket.i: rtcppacket.cpp.i
 
 # target to preprocess a source file
 rtcppacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacket.cpp.i
 .PHONY : rtcppacket.cpp.i
 
 rtcppacket.s: rtcppacket.cpp.s
@@ -362,8 +362,8 @@ rtcppacket.s: rtcppacket.cpp.s
 
 # target to generate assembly for a file
 rtcppacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacket.cpp.s
 .PHONY : rtcppacket.cpp.s
 
 rtcppacketbuilder.o: rtcppacketbuilder.cpp.o
@@ -372,8 +372,8 @@ rtcppacketbuilder.o: rtcppacketbuilder.cpp.o
 
 # target to build an object file
 rtcppacketbuilder.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacketbuilder.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacketbuilder.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacketbuilder.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacketbuilder.cpp.o
 .PHONY : rtcppacketbuilder.cpp.o
 
 rtcppacketbuilder.i: rtcppacketbuilder.cpp.i
@@ -382,8 +382,8 @@ rtcppacketbuilder.i: rtcppacketbuilder.cpp.i
 
 # target to preprocess a source file
 rtcppacketbuilder.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacketbuilder.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacketbuilder.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacketbuilder.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacketbuilder.cpp.i
 .PHONY : rtcppacketbuilder.cpp.i
 
 rtcppacketbuilder.s: rtcppacketbuilder.cpp.s
@@ -392,8 +392,8 @@ rtcppacketbuilder.s: rtcppacketbuilder.cpp.s
 
 # target to generate assembly for a file
 rtcppacketbuilder.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacketbuilder.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacketbuilder.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcppacketbuilder.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcppacketbuilder.cpp.s
 .PHONY : rtcppacketbuilder.cpp.s
 
 rtcprrpacket.o: rtcprrpacket.cpp.o
@@ -402,8 +402,8 @@ rtcprrpacket.o: rtcprrpacket.cpp.o
 
 # target to build an object file
 rtcprrpacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcprrpacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcprrpacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcprrpacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcprrpacket.cpp.o
 .PHONY : rtcprrpacket.cpp.o
 
 rtcprrpacket.i: rtcprrpacket.cpp.i
@@ -412,8 +412,8 @@ rtcprrpacket.i: rtcprrpacket.cpp.i
 
 # target to preprocess a source file
 rtcprrpacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcprrpacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcprrpacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcprrpacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcprrpacket.cpp.i
 .PHONY : rtcprrpacket.cpp.i
 
 rtcprrpacket.s: rtcprrpacket.cpp.s
@@ -422,8 +422,8 @@ rtcprrpacket.s: rtcprrpacket.cpp.s
 
 # target to generate assembly for a file
 rtcprrpacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcprrpacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcprrpacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcprrpacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcprrpacket.cpp.s
 .PHONY : rtcprrpacket.cpp.s
 
 rtcpscheduler.o: rtcpscheduler.cpp.o
@@ -432,8 +432,8 @@ rtcpscheduler.o: rtcpscheduler.cpp.o
 
 # target to build an object file
 rtcpscheduler.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpscheduler.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpscheduler.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpscheduler.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpscheduler.cpp.o
 .PHONY : rtcpscheduler.cpp.o
 
 rtcpscheduler.i: rtcpscheduler.cpp.i
@@ -442,8 +442,8 @@ rtcpscheduler.i: rtcpscheduler.cpp.i
 
 # target to preprocess a source file
 rtcpscheduler.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpscheduler.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpscheduler.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpscheduler.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpscheduler.cpp.i
 .PHONY : rtcpscheduler.cpp.i
 
 rtcpscheduler.s: rtcpscheduler.cpp.s
@@ -452,8 +452,8 @@ rtcpscheduler.s: rtcpscheduler.cpp.s
 
 # target to generate assembly for a file
 rtcpscheduler.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpscheduler.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpscheduler.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpscheduler.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpscheduler.cpp.s
 .PHONY : rtcpscheduler.cpp.s
 
 rtcpsdesinfo.o: rtcpsdesinfo.cpp.o
@@ -462,8 +462,8 @@ rtcpsdesinfo.o: rtcpsdesinfo.cpp.o
 
 # target to build an object file
 rtcpsdesinfo.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdesinfo.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdesinfo.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdesinfo.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdesinfo.cpp.o
 .PHONY : rtcpsdesinfo.cpp.o
 
 rtcpsdesinfo.i: rtcpsdesinfo.cpp.i
@@ -472,8 +472,8 @@ rtcpsdesinfo.i: rtcpsdesinfo.cpp.i
 
 # target to preprocess a source file
 rtcpsdesinfo.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdesinfo.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdesinfo.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdesinfo.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdesinfo.cpp.i
 .PHONY : rtcpsdesinfo.cpp.i
 
 rtcpsdesinfo.s: rtcpsdesinfo.cpp.s
@@ -482,8 +482,8 @@ rtcpsdesinfo.s: rtcpsdesinfo.cpp.s
 
 # target to generate assembly for a file
 rtcpsdesinfo.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdesinfo.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdesinfo.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdesinfo.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdesinfo.cpp.s
 .PHONY : rtcpsdesinfo.cpp.s
 
 rtcpsdespacket.o: rtcpsdespacket.cpp.o
@@ -492,8 +492,8 @@ rtcpsdespacket.o: rtcpsdespacket.cpp.o
 
 # target to build an object file
 rtcpsdespacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdespacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdespacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdespacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdespacket.cpp.o
 .PHONY : rtcpsdespacket.cpp.o
 
 rtcpsdespacket.i: rtcpsdespacket.cpp.i
@@ -502,8 +502,8 @@ rtcpsdespacket.i: rtcpsdespacket.cpp.i
 
 # target to preprocess a source file
 rtcpsdespacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdespacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdespacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdespacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdespacket.cpp.i
 .PHONY : rtcpsdespacket.cpp.i
 
 rtcpsdespacket.s: rtcpsdespacket.cpp.s
@@ -512,8 +512,8 @@ rtcpsdespacket.s: rtcpsdespacket.cpp.s
 
 # target to generate assembly for a file
 rtcpsdespacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdespacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdespacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsdespacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsdespacket.cpp.s
 .PHONY : rtcpsdespacket.cpp.s
 
 rtcpsrpacket.o: rtcpsrpacket.cpp.o
@@ -522,8 +522,8 @@ rtcpsrpacket.o: rtcpsrpacket.cpp.o
 
 # target to build an object file
 rtcpsrpacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsrpacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsrpacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsrpacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsrpacket.cpp.o
 .PHONY : rtcpsrpacket.cpp.o
 
 rtcpsrpacket.i: rtcpsrpacket.cpp.i
@@ -532,8 +532,8 @@ rtcpsrpacket.i: rtcpsrpacket.cpp.i
 
 # target to preprocess a source file
 rtcpsrpacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsrpacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsrpacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsrpacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsrpacket.cpp.i
 .PHONY : rtcpsrpacket.cpp.i
 
 rtcpsrpacket.s: rtcpsrpacket.cpp.s
@@ -542,8 +542,8 @@ rtcpsrpacket.s: rtcpsrpacket.cpp.s
 
 # target to generate assembly for a file
 rtcpsrpacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsrpacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsrpacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtcpsrpacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtcpsrpacket.cpp.s
 .PHONY : rtcpsrpacket.cpp.s
 
 rtpabortdescriptors.o: rtpabortdescriptors.cpp.o
@@ -552,8 +552,8 @@ rtpabortdescriptors.o: rtpabortdescriptors.cpp.o
 
 # target to build an object file
 rtpabortdescriptors.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpabortdescriptors.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpabortdescriptors.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpabortdescriptors.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpabortdescriptors.cpp.o
 .PHONY : rtpabortdescriptors.cpp.o
 
 rtpabortdescriptors.i: rtpabortdescriptors.cpp.i
@@ -562,8 +562,8 @@ rtpabortdescriptors.i: rtpabortdescriptors.cpp.i
 
 # target to preprocess a source file
 rtpabortdescriptors.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpabortdescriptors.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpabortdescriptors.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpabortdescriptors.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpabortdescriptors.cpp.i
 .PHONY : rtpabortdescriptors.cpp.i
 
 rtpabortdescriptors.s: rtpabortdescriptors.cpp.s
@@ -572,8 +572,8 @@ rtpabortdescriptors.s: rtpabortdescriptors.cpp.s
 
 # target to generate assembly for a file
 rtpabortdescriptors.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpabortdescriptors.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpabortdescriptors.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpabortdescriptors.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpabortdescriptors.cpp.s
 .PHONY : rtpabortdescriptors.cpp.s
 
 rtpbyteaddress.o: rtpbyteaddress.cpp.o
@@ -582,8 +582,8 @@ rtpbyteaddress.o: rtpbyteaddress.cpp.o
 
 # target to build an object file
 rtpbyteaddress.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpbyteaddress.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpbyteaddress.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpbyteaddress.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpbyteaddress.cpp.o
 .PHONY : rtpbyteaddress.cpp.o
 
 rtpbyteaddress.i: rtpbyteaddress.cpp.i
@@ -592,8 +592,8 @@ rtpbyteaddress.i: rtpbyteaddress.cpp.i
 
 # target to preprocess a source file
 rtpbyteaddress.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpbyteaddress.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpbyteaddress.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpbyteaddress.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpbyteaddress.cpp.i
 .PHONY : rtpbyteaddress.cpp.i
 
 rtpbyteaddress.s: rtpbyteaddress.cpp.s
@@ -602,8 +602,8 @@ rtpbyteaddress.s: rtpbyteaddress.cpp.s
 
 # target to generate assembly for a file
 rtpbyteaddress.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpbyteaddress.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpbyteaddress.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpbyteaddress.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpbyteaddress.cpp.s
 .PHONY : rtpbyteaddress.cpp.s
 
 rtpcollisionlist.o: rtpcollisionlist.cpp.o
@@ -612,8 +612,8 @@ rtpcollisionlist.o: rtpcollisionlist.cpp.o
 
 # target to build an object file
 rtpcollisionlist.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpcollisionlist.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpcollisionlist.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpcollisionlist.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpcollisionlist.cpp.o
 .PHONY : rtpcollisionlist.cpp.o
 
 rtpcollisionlist.i: rtpcollisionlist.cpp.i
@@ -622,8 +622,8 @@ rtpcollisionlist.i: rtpcollisionlist.cpp.i
 
 # target to preprocess a source file
 rtpcollisionlist.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpcollisionlist.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpcollisionlist.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpcollisionlist.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpcollisionlist.cpp.i
 .PHONY : rtpcollisionlist.cpp.i
 
 rtpcollisionlist.s: rtpcollisionlist.cpp.s
@@ -632,8 +632,8 @@ rtpcollisionlist.s: rtpcollisionlist.cpp.s
 
 # target to generate assembly for a file
 rtpcollisionlist.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpcollisionlist.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpcollisionlist.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpcollisionlist.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpcollisionlist.cpp.s
 .PHONY : rtpcollisionlist.cpp.s
 
 rtpdebug.o: rtpdebug.cpp.o
@@ -642,8 +642,8 @@ rtpdebug.o: rtpdebug.cpp.o
 
 # target to build an object file
 rtpdebug.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpdebug.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpdebug.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpdebug.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpdebug.cpp.o
 .PHONY : rtpdebug.cpp.o
 
 rtpdebug.i: rtpdebug.cpp.i
@@ -652,8 +652,8 @@ rtpdebug.i: rtpdebug.cpp.i
 
 # target to preprocess a source file
 rtpdebug.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpdebug.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpdebug.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpdebug.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpdebug.cpp.i
 .PHONY : rtpdebug.cpp.i
 
 rtpdebug.s: rtpdebug.cpp.s
@@ -662,8 +662,8 @@ rtpdebug.s: rtpdebug.cpp.s
 
 # target to generate assembly for a file
 rtpdebug.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpdebug.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpdebug.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpdebug.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpdebug.cpp.s
 .PHONY : rtpdebug.cpp.s
 
 rtperrors.o: rtperrors.cpp.o
@@ -672,8 +672,8 @@ rtperrors.o: rtperrors.cpp.o
 
 # target to build an object file
 rtperrors.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtperrors.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtperrors.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtperrors.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtperrors.cpp.o
 .PHONY : rtperrors.cpp.o
 
 rtperrors.i: rtperrors.cpp.i
@@ -682,8 +682,8 @@ rtperrors.i: rtperrors.cpp.i
 
 # target to preprocess a source file
 rtperrors.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtperrors.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtperrors.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtperrors.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtperrors.cpp.i
 .PHONY : rtperrors.cpp.i
 
 rtperrors.s: rtperrors.cpp.s
@@ -692,8 +692,8 @@ rtperrors.s: rtperrors.cpp.s
 
 # target to generate assembly for a file
 rtperrors.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtperrors.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtperrors.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtperrors.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtperrors.cpp.s
 .PHONY : rtperrors.cpp.s
 
 rtpexternaltransmitter.o: rtpexternaltransmitter.cpp.o
@@ -702,8 +702,8 @@ rtpexternaltransmitter.o: rtpexternaltransmitter.cpp.o
 
 # target to build an object file
 rtpexternaltransmitter.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpexternaltransmitter.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpexternaltransmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpexternaltransmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpexternaltransmitter.cpp.o
 .PHONY : rtpexternaltransmitter.cpp.o
 
 rtpexternaltransmitter.i: rtpexternaltransmitter.cpp.i
@@ -712,8 +712,8 @@ rtpexternaltransmitter.i: rtpexternaltransmitter.cpp.i
 
 # target to preprocess a source file
 rtpexternaltransmitter.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpexternaltransmitter.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpexternaltransmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpexternaltransmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpexternaltransmitter.cpp.i
 .PHONY : rtpexternaltransmitter.cpp.i
 
 rtpexternaltransmitter.s: rtpexternaltransmitter.cpp.s
@@ -722,8 +722,8 @@ rtpexternaltransmitter.s: rtpexternaltransmitter.cpp.s
 
 # target to generate assembly for a file
 rtpexternaltransmitter.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpexternaltransmitter.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpexternaltransmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpexternaltransmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpexternaltransmitter.cpp.s
 .PHONY : rtpexternaltransmitter.cpp.s
 
 rtpinternalsourcedata.o: rtpinternalsourcedata.cpp.o
@@ -732,8 +732,8 @@ rtpinternalsourcedata.o: rtpinternalsourcedata.cpp.o
 
 # target to build an object file
 rtpinternalsourcedata.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpinternalsourcedata.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpinternalsourcedata.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpinternalsourcedata.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpinternalsourcedata.cpp.o
 .PHONY : rtpinternalsourcedata.cpp.o
 
 rtpinternalsourcedata.i: rtpinternalsourcedata.cpp.i
@@ -742,8 +742,8 @@ rtpinternalsourcedata.i: rtpinternalsourcedata.cpp.i
 
 # target to preprocess a source file
 rtpinternalsourcedata.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpinternalsourcedata.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpinternalsourcedata.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpinternalsourcedata.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpinternalsourcedata.cpp.i
 .PHONY : rtpinternalsourcedata.cpp.i
 
 rtpinternalsourcedata.s: rtpinternalsourcedata.cpp.s
@@ -752,8 +752,8 @@ rtpinternalsourcedata.s: rtpinternalsourcedata.cpp.s
 
 # target to generate assembly for a file
 rtpinternalsourcedata.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpinternalsourcedata.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpinternalsourcedata.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpinternalsourcedata.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpinternalsourcedata.cpp.s
 .PHONY : rtpinternalsourcedata.cpp.s
 
 rtpipv4address.o: rtpipv4address.cpp.o
@@ -762,8 +762,8 @@ rtpipv4address.o: rtpipv4address.cpp.o
 
 # target to build an object file
 rtpipv4address.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4address.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4address.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4address.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4address.cpp.o
 .PHONY : rtpipv4address.cpp.o
 
 rtpipv4address.i: rtpipv4address.cpp.i
@@ -772,8 +772,8 @@ rtpipv4address.i: rtpipv4address.cpp.i
 
 # target to preprocess a source file
 rtpipv4address.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4address.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4address.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4address.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4address.cpp.i
 .PHONY : rtpipv4address.cpp.i
 
 rtpipv4address.s: rtpipv4address.cpp.s
@@ -782,8 +782,8 @@ rtpipv4address.s: rtpipv4address.cpp.s
 
 # target to generate assembly for a file
 rtpipv4address.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4address.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4address.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4address.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4address.cpp.s
 .PHONY : rtpipv4address.cpp.s
 
 rtpipv4destination.o: rtpipv4destination.cpp.o
@@ -792,8 +792,8 @@ rtpipv4destination.o: rtpipv4destination.cpp.o
 
 # target to build an object file
 rtpipv4destination.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4destination.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4destination.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4destination.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4destination.cpp.o
 .PHONY : rtpipv4destination.cpp.o
 
 rtpipv4destination.i: rtpipv4destination.cpp.i
@@ -802,8 +802,8 @@ rtpipv4destination.i: rtpipv4destination.cpp.i
 
 # target to preprocess a source file
 rtpipv4destination.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4destination.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4destination.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4destination.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4destination.cpp.i
 .PHONY : rtpipv4destination.cpp.i
 
 rtpipv4destination.s: rtpipv4destination.cpp.s
@@ -812,8 +812,8 @@ rtpipv4destination.s: rtpipv4destination.cpp.s
 
 # target to generate assembly for a file
 rtpipv4destination.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4destination.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4destination.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv4destination.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv4destination.cpp.s
 .PHONY : rtpipv4destination.cpp.s
 
 rtpipv6address.o: rtpipv6address.cpp.o
@@ -822,8 +822,8 @@ rtpipv6address.o: rtpipv6address.cpp.o
 
 # target to build an object file
 rtpipv6address.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6address.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6address.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6address.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6address.cpp.o
 .PHONY : rtpipv6address.cpp.o
 
 rtpipv6address.i: rtpipv6address.cpp.i
@@ -832,8 +832,8 @@ rtpipv6address.i: rtpipv6address.cpp.i
 
 # target to preprocess a source file
 rtpipv6address.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6address.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6address.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6address.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6address.cpp.i
 .PHONY : rtpipv6address.cpp.i
 
 rtpipv6address.s: rtpipv6address.cpp.s
@@ -842,8 +842,8 @@ rtpipv6address.s: rtpipv6address.cpp.s
 
 # target to generate assembly for a file
 rtpipv6address.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6address.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6address.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6address.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6address.cpp.s
 .PHONY : rtpipv6address.cpp.s
 
 rtpipv6destination.o: rtpipv6destination.cpp.o
@@ -852,8 +852,8 @@ rtpipv6destination.o: rtpipv6destination.cpp.o
 
 # target to build an object file
 rtpipv6destination.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6destination.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6destination.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6destination.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6destination.cpp.o
 .PHONY : rtpipv6destination.cpp.o
 
 rtpipv6destination.i: rtpipv6destination.cpp.i
@@ -862,8 +862,8 @@ rtpipv6destination.i: rtpipv6destination.cpp.i
 
 # target to preprocess a source file
 rtpipv6destination.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6destination.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6destination.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6destination.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6destination.cpp.i
 .PHONY : rtpipv6destination.cpp.i
 
 rtpipv6destination.s: rtpipv6destination.cpp.s
@@ -872,8 +872,8 @@ rtpipv6destination.s: rtpipv6destination.cpp.s
 
 # target to generate assembly for a file
 rtpipv6destination.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6destination.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6destination.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpipv6destination.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpipv6destination.cpp.s
 .PHONY : rtpipv6destination.cpp.s
 
 rtplibraryversion.o: rtplibraryversion.cpp.o
@@ -882,8 +882,8 @@ rtplibraryversion.o: rtplibraryversion.cpp.o
 
 # target to build an object file
 rtplibraryversion.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtplibraryversion.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtplibraryversion.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtplibraryversion.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtplibraryversion.cpp.o
 .PHONY : rtplibraryversion.cpp.o
 
 rtplibraryversion.i: rtplibraryversion.cpp.i
@@ -892,8 +892,8 @@ rtplibraryversion.i: rtplibraryversion.cpp.i
 
 # target to preprocess a source file
 rtplibraryversion.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtplibraryversion.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtplibraryversion.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtplibraryversion.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtplibraryversion.cpp.i
 .PHONY : rtplibraryversion.cpp.i
 
 rtplibraryversion.s: rtplibraryversion.cpp.s
@@ -902,8 +902,8 @@ rtplibraryversion.s: rtplibraryversion.cpp.s
 
 # target to generate assembly for a file
 rtplibraryversion.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtplibraryversion.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtplibraryversion.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtplibraryversion.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtplibraryversion.cpp.s
 .PHONY : rtplibraryversion.cpp.s
 
 rtppacket.o: rtppacket.cpp.o
@@ -912,8 +912,8 @@ rtppacket.o: rtppacket.cpp.o
 
 # target to build an object file
 rtppacket.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacket.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacket.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacket.cpp.o
 .PHONY : rtppacket.cpp.o
 
 rtppacket.i: rtppacket.cpp.i
@@ -922,8 +922,8 @@ rtppacket.i: rtppacket.cpp.i
 
 # target to preprocess a source file
 rtppacket.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacket.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacket.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacket.cpp.i
 .PHONY : rtppacket.cpp.i
 
 rtppacket.s: rtppacket.cpp.s
@@ -932,8 +932,8 @@ rtppacket.s: rtppacket.cpp.s
 
 # target to generate assembly for a file
 rtppacket.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacket.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacket.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacket.cpp.s
 .PHONY : rtppacket.cpp.s
 
 rtppacketbuilder.o: rtppacketbuilder.cpp.o
@@ -942,8 +942,8 @@ rtppacketbuilder.o: rtppacketbuilder.cpp.o
 
 # target to build an object file
 rtppacketbuilder.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacketbuilder.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacketbuilder.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacketbuilder.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacketbuilder.cpp.o
 .PHONY : rtppacketbuilder.cpp.o
 
 rtppacketbuilder.i: rtppacketbuilder.cpp.i
@@ -952,8 +952,8 @@ rtppacketbuilder.i: rtppacketbuilder.cpp.i
 
 # target to preprocess a source file
 rtppacketbuilder.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacketbuilder.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacketbuilder.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacketbuilder.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacketbuilder.cpp.i
 .PHONY : rtppacketbuilder.cpp.i
 
 rtppacketbuilder.s: rtppacketbuilder.cpp.s
@@ -962,8 +962,8 @@ rtppacketbuilder.s: rtppacketbuilder.cpp.s
 
 # target to generate assembly for a file
 rtppacketbuilder.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacketbuilder.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacketbuilder.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppacketbuilder.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppacketbuilder.cpp.s
 .PHONY : rtppacketbuilder.cpp.s
 
 rtppollthread.o: rtppollthread.cpp.o
@@ -972,8 +972,8 @@ rtppollthread.o: rtppollthread.cpp.o
 
 # target to build an object file
 rtppollthread.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppollthread.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppollthread.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppollthread.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppollthread.cpp.o
 .PHONY : rtppollthread.cpp.o
 
 rtppollthread.i: rtppollthread.cpp.i
@@ -982,8 +982,8 @@ rtppollthread.i: rtppollthread.cpp.i
 
 # target to preprocess a source file
 rtppollthread.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppollthread.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppollthread.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppollthread.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppollthread.cpp.i
 .PHONY : rtppollthread.cpp.i
 
 rtppollthread.s: rtppollthread.cpp.s
@@ -992,8 +992,8 @@ rtppollthread.s: rtppollthread.cpp.s
 
 # target to generate assembly for a file
 rtppollthread.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppollthread.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppollthread.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtppollthread.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtppollthread.cpp.s
 .PHONY : rtppollthread.cpp.s
 
 rtprandom.o: rtprandom.cpp.o
@@ -1002,8 +1002,8 @@ rtprandom.o: rtprandom.cpp.o
 
 # target to build an object file
 rtprandom.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandom.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandom.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandom.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandom.cpp.o
 .PHONY : rtprandom.cpp.o
 
 rtprandom.i: rtprandom.cpp.i
@@ -1012,8 +1012,8 @@ rtprandom.i: rtprandom.cpp.i
 
 # target to preprocess a source file
 rtprandom.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandom.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandom.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandom.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandom.cpp.i
 .PHONY : rtprandom.cpp.i
 
 rtprandom.s: rtprandom.cpp.s
@@ -1022,8 +1022,8 @@ rtprandom.s: rtprandom.cpp.s
 
 # target to generate assembly for a file
 rtprandom.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandom.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandom.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandom.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandom.cpp.s
 .PHONY : rtprandom.cpp.s
 
 rtprandomrand48.o: rtprandomrand48.cpp.o
@@ -1032,8 +1032,8 @@ rtprandomrand48.o: rtprandomrand48.cpp.o
 
 # target to build an object file
 rtprandomrand48.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrand48.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrand48.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrand48.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrand48.cpp.o
 .PHONY : rtprandomrand48.cpp.o
 
 rtprandomrand48.i: rtprandomrand48.cpp.i
@@ -1042,8 +1042,8 @@ rtprandomrand48.i: rtprandomrand48.cpp.i
 
 # target to preprocess a source file
 rtprandomrand48.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrand48.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrand48.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrand48.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrand48.cpp.i
 .PHONY : rtprandomrand48.cpp.i
 
 rtprandomrand48.s: rtprandomrand48.cpp.s
@@ -1052,8 +1052,8 @@ rtprandomrand48.s: rtprandomrand48.cpp.s
 
 # target to generate assembly for a file
 rtprandomrand48.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrand48.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrand48.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrand48.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrand48.cpp.s
 .PHONY : rtprandomrand48.cpp.s
 
 rtprandomrands.o: rtprandomrands.cpp.o
@@ -1062,8 +1062,8 @@ rtprandomrands.o: rtprandomrands.cpp.o
 
 # target to build an object file
 rtprandomrands.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrands.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrands.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrands.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrands.cpp.o
 .PHONY : rtprandomrands.cpp.o
 
 rtprandomrands.i: rtprandomrands.cpp.i
@@ -1072,8 +1072,8 @@ rtprandomrands.i: rtprandomrands.cpp.i
 
 # target to preprocess a source file
 rtprandomrands.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrands.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrands.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrands.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrands.cpp.i
 .PHONY : rtprandomrands.cpp.i
 
 rtprandomrands.s: rtprandomrands.cpp.s
@@ -1082,8 +1082,8 @@ rtprandomrands.s: rtprandomrands.cpp.s
 
 # target to generate assembly for a file
 rtprandomrands.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrands.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrands.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomrands.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomrands.cpp.s
 .PHONY : rtprandomrands.cpp.s
 
 rtprandomurandom.o: rtprandomurandom.cpp.o
@@ -1092,8 +1092,8 @@ rtprandomurandom.o: rtprandomurandom.cpp.o
 
 # target to build an object file
 rtprandomurandom.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomurandom.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomurandom.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomurandom.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomurandom.cpp.o
 .PHONY : rtprandomurandom.cpp.o
 
 rtprandomurandom.i: rtprandomurandom.cpp.i
@@ -1102,8 +1102,8 @@ rtprandomurandom.i: rtprandomurandom.cpp.i
 
 # target to preprocess a source file
 rtprandomurandom.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomurandom.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomurandom.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomurandom.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomurandom.cpp.i
 .PHONY : rtprandomurandom.cpp.i
 
 rtprandomurandom.s: rtprandomurandom.cpp.s
@@ -1112,8 +1112,8 @@ rtprandomurandom.s: rtprandomurandom.cpp.s
 
 # target to generate assembly for a file
 rtprandomurandom.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomurandom.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomurandom.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtprandomurandom.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtprandomurandom.cpp.s
 .PHONY : rtprandomurandom.cpp.s
 
 rtpsecuresession.o: rtpsecuresession.cpp.o
@@ -1122,8 +1122,8 @@ rtpsecuresession.o: rtpsecuresession.cpp.o
 
 # target to build an object file
 rtpsecuresession.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsecuresession.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsecuresession.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsecuresession.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsecuresession.cpp.o
 .PHONY : rtpsecuresession.cpp.o
 
 rtpsecuresession.i: rtpsecuresession.cpp.i
@@ -1132,8 +1132,8 @@ rtpsecuresession.i: rtpsecuresession.cpp.i
 
 # target to preprocess a source file
 rtpsecuresession.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsecuresession.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsecuresession.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsecuresession.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsecuresession.cpp.i
 .PHONY : rtpsecuresession.cpp.i
 
 rtpsecuresession.s: rtpsecuresession.cpp.s
@@ -1142,8 +1142,8 @@ rtpsecuresession.s: rtpsecuresession.cpp.s
 
 # target to generate assembly for a file
 rtpsecuresession.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsecuresession.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsecuresession.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsecuresession.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsecuresession.cpp.s
 .PHONY : rtpsecuresession.cpp.s
 
 rtpsession.o: rtpsession.cpp.o
@@ -1152,8 +1152,8 @@ rtpsession.o: rtpsession.cpp.o
 
 # target to build an object file
 rtpsession.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsession.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsession.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsession.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsession.cpp.o
 .PHONY : rtpsession.cpp.o
 
 rtpsession.i: rtpsession.cpp.i
@@ -1162,8 +1162,8 @@ rtpsession.i: rtpsession.cpp.i
 
 # target to preprocess a source file
 rtpsession.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsession.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsession.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsession.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsession.cpp.i
 .PHONY : rtpsession.cpp.i
 
 rtpsession.s: rtpsession.cpp.s
@@ -1172,8 +1172,8 @@ rtpsession.s: rtpsession.cpp.s
 
 # target to generate assembly for a file
 rtpsession.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsession.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsession.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsession.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsession.cpp.s
 .PHONY : rtpsession.cpp.s
 
 rtpsessionparams.o: rtpsessionparams.cpp.o
@@ -1182,8 +1182,8 @@ rtpsessionparams.o: rtpsessionparams.cpp.o
 
 # target to build an object file
 rtpsessionparams.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionparams.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionparams.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionparams.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionparams.cpp.o
 .PHONY : rtpsessionparams.cpp.o
 
 rtpsessionparams.i: rtpsessionparams.cpp.i
@@ -1192,8 +1192,8 @@ rtpsessionparams.i: rtpsessionparams.cpp.i
 
 # target to preprocess a source file
 rtpsessionparams.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionparams.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionparams.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionparams.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionparams.cpp.i
 .PHONY : rtpsessionparams.cpp.i
 
 rtpsessionparams.s: rtpsessionparams.cpp.s
@@ -1202,8 +1202,8 @@ rtpsessionparams.s: rtpsessionparams.cpp.s
 
 # target to generate assembly for a file
 rtpsessionparams.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionparams.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionparams.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionparams.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionparams.cpp.s
 .PHONY : rtpsessionparams.cpp.s
 
 rtpsessionsources.o: rtpsessionsources.cpp.o
@@ -1212,8 +1212,8 @@ rtpsessionsources.o: rtpsessionsources.cpp.o
 
 # target to build an object file
 rtpsessionsources.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionsources.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionsources.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionsources.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionsources.cpp.o
 .PHONY : rtpsessionsources.cpp.o
 
 rtpsessionsources.i: rtpsessionsources.cpp.i
@@ -1222,8 +1222,8 @@ rtpsessionsources.i: rtpsessionsources.cpp.i
 
 # target to preprocess a source file
 rtpsessionsources.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionsources.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionsources.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionsources.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionsources.cpp.i
 .PHONY : rtpsessionsources.cpp.i
 
 rtpsessionsources.s: rtpsessionsources.cpp.s
@@ -1232,8 +1232,8 @@ rtpsessionsources.s: rtpsessionsources.cpp.s
 
 # target to generate assembly for a file
 rtpsessionsources.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionsources.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionsources.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsessionsources.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsessionsources.cpp.s
 .PHONY : rtpsessionsources.cpp.s
 
 rtpsourcedata.o: rtpsourcedata.cpp.o
@@ -1242,8 +1242,8 @@ rtpsourcedata.o: rtpsourcedata.cpp.o
 
 # target to build an object file
 rtpsourcedata.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsourcedata.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsourcedata.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsourcedata.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsourcedata.cpp.o
 .PHONY : rtpsourcedata.cpp.o
 
 rtpsourcedata.i: rtpsourcedata.cpp.i
@@ -1252,8 +1252,8 @@ rtpsourcedata.i: rtpsourcedata.cpp.i
 
 # target to preprocess a source file
 rtpsourcedata.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsourcedata.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsourcedata.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsourcedata.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsourcedata.cpp.i
 .PHONY : rtpsourcedata.cpp.i
 
 rtpsourcedata.s: rtpsourcedata.cpp.s
@@ -1262,8 +1262,8 @@ rtpsourcedata.s: rtpsourcedata.cpp.s
 
 # target to generate assembly for a file
 rtpsourcedata.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsourcedata.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsourcedata.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsourcedata.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsourcedata.cpp.s
 .PHONY : rtpsourcedata.cpp.s
 
 rtpsources.o: rtpsources.cpp.o
@@ -1272,8 +1272,8 @@ rtpsources.o: rtpsources.cpp.o
 
 # target to build an object file
 rtpsources.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsources.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsources.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsources.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsources.cpp.o
 .PHONY : rtpsources.cpp.o
 
 rtpsources.i: rtpsources.cpp.i
@@ -1282,8 +1282,8 @@ rtpsources.i: rtpsources.cpp.i
 
 # target to preprocess a source file
 rtpsources.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsources.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsources.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsources.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsources.cpp.i
 .PHONY : rtpsources.cpp.i
 
 rtpsources.s: rtpsources.cpp.s
@@ -1292,8 +1292,8 @@ rtpsources.s: rtpsources.cpp.s
 
 # target to generate assembly for a file
 rtpsources.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsources.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsources.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpsources.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpsources.cpp.s
 .PHONY : rtpsources.cpp.s
 
 rtptcpaddress.o: rtptcpaddress.cpp.o
@@ -1302,8 +1302,8 @@ rtptcpaddress.o: rtptcpaddress.cpp.o
 
 # target to build an object file
 rtptcpaddress.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcpaddress.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcpaddress.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcpaddress.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcpaddress.cpp.o
 .PHONY : rtptcpaddress.cpp.o
 
 rtptcpaddress.i: rtptcpaddress.cpp.i
@@ -1312,8 +1312,8 @@ rtptcpaddress.i: rtptcpaddress.cpp.i
 
 # target to preprocess a source file
 rtptcpaddress.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcpaddress.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcpaddress.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcpaddress.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcpaddress.cpp.i
 .PHONY : rtptcpaddress.cpp.i
 
 rtptcpaddress.s: rtptcpaddress.cpp.s
@@ -1322,8 +1322,8 @@ rtptcpaddress.s: rtptcpaddress.cpp.s
 
 # target to generate assembly for a file
 rtptcpaddress.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcpaddress.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcpaddress.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcpaddress.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcpaddress.cpp.s
 .PHONY : rtptcpaddress.cpp.s
 
 rtptcptransmitter.o: rtptcptransmitter.cpp.o
@@ -1332,8 +1332,8 @@ rtptcptransmitter.o: rtptcptransmitter.cpp.o
 
 # target to build an object file
 rtptcptransmitter.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcptransmitter.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcptransmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcptransmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcptransmitter.cpp.o
 .PHONY : rtptcptransmitter.cpp.o
 
 rtptcptransmitter.i: rtptcptransmitter.cpp.i
@@ -1342,8 +1342,8 @@ rtptcptransmitter.i: rtptcptransmitter.cpp.i
 
 # target to preprocess a source file
 rtptcptransmitter.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcptransmitter.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcptransmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcptransmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcptransmitter.cpp.i
 .PHONY : rtptcptransmitter.cpp.i
 
 rtptcptransmitter.s: rtptcptransmitter.cpp.s
@@ -1352,8 +1352,8 @@ rtptcptransmitter.s: rtptcptransmitter.cpp.s
 
 # target to generate assembly for a file
 rtptcptransmitter.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcptransmitter.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcptransmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptcptransmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptcptransmitter.cpp.s
 .PHONY : rtptcptransmitter.cpp.s
 
 rtptimeutilities.o: rtptimeutilities.cpp.o
@@ -1362,8 +1362,8 @@ rtptimeutilities.o: rtptimeutilities.cpp.o
 
 # target to build an object file
 rtptimeutilities.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptimeutilities.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptimeutilities.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptimeutilities.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptimeutilities.cpp.o
 .PHONY : rtptimeutilities.cpp.o
 
 rtptimeutilities.i: rtptimeutilities.cpp.i
@@ -1372,8 +1372,8 @@ rtptimeutilities.i: rtptimeutilities.cpp.i
 
 # target to preprocess a source file
 rtptimeutilities.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptimeutilities.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptimeutilities.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptimeutilities.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptimeutilities.cpp.i
 .PHONY : rtptimeutilities.cpp.i
 
 rtptimeutilities.s: rtptimeutilities.cpp.s
@@ -1382,8 +1382,8 @@ rtptimeutilities.s: rtptimeutilities.cpp.s
 
 # target to generate assembly for a file
 rtptimeutilities.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptimeutilities.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptimeutilities.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtptimeutilities.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtptimeutilities.cpp.s
 .PHONY : rtptimeutilities.cpp.s
 
 rtpudpv4transmitter.o: rtpudpv4transmitter.cpp.o
@@ -1392,8 +1392,8 @@ rtpudpv4transmitter.o: rtpudpv4transmitter.cpp.o
 
 # target to build an object file
 rtpudpv4transmitter.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv4transmitter.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv4transmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv4transmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv4transmitter.cpp.o
 .PHONY : rtpudpv4transmitter.cpp.o
 
 rtpudpv4transmitter.i: rtpudpv4transmitter.cpp.i
@@ -1402,8 +1402,8 @@ rtpudpv4transmitter.i: rtpudpv4transmitter.cpp.i
 
 # target to preprocess a source file
 rtpudpv4transmitter.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv4transmitter.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv4transmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv4transmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv4transmitter.cpp.i
 .PHONY : rtpudpv4transmitter.cpp.i
 
 rtpudpv4transmitter.s: rtpudpv4transmitter.cpp.s
@@ -1412,8 +1412,8 @@ rtpudpv4transmitter.s: rtpudpv4transmitter.cpp.s
 
 # target to generate assembly for a file
 rtpudpv4transmitter.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv4transmitter.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv4transmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv4transmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv4transmitter.cpp.s
 .PHONY : rtpudpv4transmitter.cpp.s
 
 rtpudpv6transmitter.o: rtpudpv6transmitter.cpp.o
@@ -1422,8 +1422,8 @@ rtpudpv6transmitter.o: rtpudpv6transmitter.cpp.o
 
 # target to build an object file
 rtpudpv6transmitter.cpp.o:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv6transmitter.cpp.o
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv6transmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv6transmitter.cpp.o
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv6transmitter.cpp.o
 .PHONY : rtpudpv6transmitter.cpp.o
 
 rtpudpv6transmitter.i: rtpudpv6transmitter.cpp.i
@@ -1432,8 +1432,8 @@ rtpudpv6transmitter.i: rtpudpv6transmitter.cpp.i
 
 # target to preprocess a source file
 rtpudpv6transmitter.cpp.i:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv6transmitter.cpp.i
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv6transmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv6transmitter.cpp.i
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv6transmitter.cpp.i
 .PHONY : rtpudpv6transmitter.cpp.i
 
 rtpudpv6transmitter.s: rtpudpv6transmitter.cpp.s
@@ -1442,8 +1442,8 @@ rtpudpv6transmitter.s: rtpudpv6transmitter.cpp.s
 
 # target to generate assembly for a file
 rtpudpv6transmitter.cpp.s:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv6transmitter.cpp.s
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv6transmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-static.dir/build.make jrtplib/src/CMakeFiles/jrtplib-static.dir/rtpudpv6transmitter.cpp.s
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f jrtplib/src/CMakeFiles/jrtplib-shared.dir/build.make jrtplib/src/CMakeFiles/jrtplib-shared.dir/rtpudpv6transmitter.cpp.s
 .PHONY : rtpudpv6transmitter.cpp.s
 
 # Help Target
@@ -1597,6 +1597,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

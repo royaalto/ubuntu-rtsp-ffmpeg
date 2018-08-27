@@ -34,7 +34,7 @@ CMakeFiles/myRtspClient.dir/MediaSession.cpp.o
  ../third_party/JRTPLIB/src/rtptimeutilities.h
  ../third_party/JRTPLIB/src/rtptransmitter.h
  ../third_party/JRTPLIB/src/rtpudpv4transmitter.h
- /home/roy/delete/myRtspClient/myRtspClient/MediaSession.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/MediaSession.cpp
  include/MediaSession.h
  include/myRtpSession.h
  include/myRtpTcpSession.h
@@ -42,27 +42,27 @@ CMakeFiles/myRtspClient.dir/MediaSession.cpp.o
  include/nalu_types.h
  jrtplib/src/rtpconfig.h
  jrtplib/src/rtptypes.h
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o
  ../third_party/Base64_live555/include/Base64.hh
  ../third_party/Base64_live555/include/Boolean.hh
  ../third_party/Base64_live555/include/strDup.hh
- /home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o
  ../third_party/Base64_live555/include/strDup.hh
- /home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o
  ../third_party/md5/include/md5.h
- /home/roy/delete/myRtspClient/third_party/md5/md5.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp
 CMakeFiles/myRtspClient.dir/mpeg4_types.cpp.o
- /home/roy/delete/myRtspClient/myRtspClient/mpeg4_types.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/mpeg4_types.cpp
  include/audio_type_base.h
  include/mpeg4_types.h
 CMakeFiles/myRtspClient.dir/mpeg_types.cpp.o
- /home/roy/delete/myRtspClient/myRtspClient/mpeg_types.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/mpeg_types.cpp
  include/audio_type_base.h
  include/mpeg_types.h
 CMakeFiles/myRtspClient.dir/myRegex.cpp.o
- /home/roy/delete/myRtspClient/myRtspClient/myRegex.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/myRegex.cpp
  include/myRegex.h
 CMakeFiles/myRtspClient.dir/myRtpTcpSession.cpp.o
  ../third_party/JRTPLIB/src/rtcpcompoundpacket.h
@@ -100,7 +100,7 @@ CMakeFiles/myRtspClient.dir/myRtpTcpSession.cpp.o
  ../third_party/JRTPLIB/src/rtptimeutilities.h
  ../third_party/JRTPLIB/src/rtptransmitter.h
  ../third_party/JRTPLIB/src/rtpudpv4transmitter.h
- /home/roy/delete/myRtspClient/myRtspClient/myRtpTcpSession.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/myRtpTcpSession.cpp
  include/MediaSession.h
  include/myRtpSession.h
  include/myRtpTcpSession.h
@@ -144,7 +144,7 @@ CMakeFiles/myRtspClient.dir/myRtpUdpSession.cpp.o
  ../third_party/JRTPLIB/src/rtptimeutilities.h
  ../third_party/JRTPLIB/src/rtptransmitter.h
  ../third_party/JRTPLIB/src/rtpudpv4transmitter.h
- /home/roy/delete/myRtspClient/myRtspClient/myRtpUdpSession.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/myRtpUdpSession.cpp
  include/MediaSession.h
  include/myRtpSession.h
  include/myRtpUdpSession.h
@@ -189,7 +189,7 @@ CMakeFiles/myRtspClient.dir/myTCPTransmitter.cpp.o
  ../third_party/JRTPLIB/src/rtptimeutilities.h
  ../third_party/JRTPLIB/src/rtptransmitter.h
  ../third_party/JRTPLIB/src/rtpudpv4transmitter.h
- /home/roy/delete/myRtspClient/myRtspClient/myTCPTransmitter.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/myTCPTransmitter.cpp
  include/myRegex.h
  include/myRtpSession.h
  include/myTCPTransmitter.h
@@ -197,21 +197,21 @@ CMakeFiles/myRtspClient.dir/myTCPTransmitter.cpp.o
  jrtplib/src/rtpconfig.h
  jrtplib/src/rtptypes.h
 CMakeFiles/myRtspClient.dir/nalu_types_h264.cpp.o
- /home/roy/delete/myRtspClient/myRtspClient/nalu_types_h264.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/nalu_types_h264.cpp
  include/nalu_types.h
  include/nalu_types_h264.h
 CMakeFiles/myRtspClient.dir/nalu_types_h265.cpp.o
- /home/roy/delete/myRtspClient/myRtspClient/nalu_types_h265.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/nalu_types_h265.cpp
  include/nalu_types.h
  include/nalu_types_h265.h
 CMakeFiles/myRtspClient.dir/pcmu_types.cpp.o
- /home/roy/delete/myRtspClient/myRtspClient/pcmu_types.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/pcmu_types.cpp
  include/audio_type_base.h
  include/pcmu_types.h
 CMakeFiles/myRtspClient.dir/rtspClient.cpp.o
  ../third_party/Base64_live555/include/Base64.hh
  ../third_party/Base64_live555/include/Boolean.hh
- /home/roy/delete/myRtspClient/myRtspClient/rtspClient.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/rtspClient.cpp
  include/MediaSession.h
  include/audio_type_base.h
  include/mpeg_types.h
@@ -224,10 +224,10 @@ CMakeFiles/myRtspClient.dir/rtspClient.cpp.o
  include/sdp_data.h
  include/utils.h
 CMakeFiles/myRtspClient.dir/sdp_data.cpp.o
- /home/roy/delete/myRtspClient/myRtspClient/sdp_data.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/sdp_data.cpp
  include/myRegex.h
  include/sdp_data.h
 CMakeFiles/myRtspClient.dir/utils.cpp.o
  ../third_party/md5/include/md5.h
- /home/roy/delete/myRtspClient/myRtspClient/utils.cpp
+ /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/utils.cpp
  include/utils.h

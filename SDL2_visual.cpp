@@ -95,7 +95,8 @@ int main(int argc, char *argv[]) {
 	  cout << argv[0] << " rtsp://127.0.0.1/ansersion" << endl;
 	  return 1;
   }
-  rtspClientRequest(&Client, argv[1]);
+  std::string m_url = "rtsp://192.168.100.203:554";
+  rtspClientRequest(&Client, m_url);
 
   // SDL_Overlay     *bmp;
   // SDL_Surface     *screen;

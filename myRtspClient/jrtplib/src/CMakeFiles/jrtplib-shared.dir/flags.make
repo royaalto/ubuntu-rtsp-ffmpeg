@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wextra -Werror -fPIC
 
 CXX_DEFINES = -DJRTPLIB_COMPILING -Djrtplib_shared_EXPORTS
 
-CXX_INCLUDES = -I/home/roy/delete/myRtspClient/third_party/JRTPLIB/../JTHREAD/build/src -I/home/roy/delete/myRtspClient/third_party/JRTPLIB/src -I/home/roy/delete/myRtspClient/myRtspClient/jrtplib/src 
+CXX_INCLUDES = -I/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/JRTPLIB/../JTHREAD/build/src -I/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/JRTPLIB/src -I/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/src 
 

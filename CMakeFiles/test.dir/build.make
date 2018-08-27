@@ -57,27 +57,27 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/FF_SDL2_visual.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/FF_SDL2_visual.cpp.o: FF_SDL2_visual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/FF_SDL2_visual.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/FF_SDL2_visual.cpp.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/FF_SDL2_visual.cpp
+CMakeFiles/test.dir/SDL2_visual.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/SDL2_visual.cpp.o: SDL2_visual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/SDL2_visual.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/SDL2_visual.cpp.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/SDL2_visual.cpp
 
-CMakeFiles/test.dir/FF_SDL2_visual.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/FF_SDL2_visual.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/delete/ubuntu-rtsp-ffmpeg/FF_SDL2_visual.cpp > CMakeFiles/test.dir/FF_SDL2_visual.cpp.i
+CMakeFiles/test.dir/SDL2_visual.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/SDL2_visual.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/delete/ubuntu-rtsp-ffmpeg/SDL2_visual.cpp > CMakeFiles/test.dir/SDL2_visual.cpp.i
 
-CMakeFiles/test.dir/FF_SDL2_visual.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/FF_SDL2_visual.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/delete/ubuntu-rtsp-ffmpeg/FF_SDL2_visual.cpp -o CMakeFiles/test.dir/FF_SDL2_visual.cpp.s
+CMakeFiles/test.dir/SDL2_visual.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/SDL2_visual.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/delete/ubuntu-rtsp-ffmpeg/SDL2_visual.cpp -o CMakeFiles/test.dir/SDL2_visual.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/FF_SDL2_visual.cpp.o"
+"CMakeFiles/test.dir/SDL2_visual.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/FF_SDL2_visual.cpp.o
+test: CMakeFiles/test.dir/SDL2_visual.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: myRtspClient/jrtplib/src/libjrtp.a
 test: myRtspClient/libmyRtspClient.so

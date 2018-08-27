@@ -17,10 +17,10 @@ void checkError(int status)
 {
 	if (status >= 0)
 		return;
-	
+
 	std::cerr << "An error occured in the RTP component: " << std::endl;
 	std::cerr << "Error description: " << RTPGetErrorString(status) << std::endl;
-	
+
 	exit(-1);
 }
 
@@ -32,7 +32,7 @@ public:
 	MyRTPSession()
 	{
 		SetChangeIncomingData(true);
-		
+
 		pLogFile = fopen("logfile.dat", "wb");
 	}
 
@@ -70,21 +70,21 @@ protected:
 	}
 
 	void OnRTCPCompoundPacket(RTCPCompoundPacket *p, const RTPTime &receivetime, const RTPAddress *senderaddress)
-	{	
+	{
 		printf("%u.%06u RECEIVED\n",receivetime.GetSeconds(),receivetime.GetMicroSeconds());
-		
+
 		DumpCompoundPacket(stdout,p);
 	}
 
 	void OnSendRTCPCompoundPacket(RTCPCompoundPacket *p)
-	{	
+	{
 		RTPTime t = RTPTime::CurrentTime();
-		
+
 		printf("%u.%06u SENDING\n",t.GetSeconds(),t.GetMicroSeconds());
-		
+
 		DumpCompoundPacket(stdout,p);
 	}
-	
+
 	void DumpCompoundPacket(FILE *f, RTCPCompoundPacket *p)
 	{
 		RTCPPacket *pack;
@@ -97,10 +97,10 @@ protected:
 				RTCPSRPacket *p = (RTCPSRPacket *)pack;
 
 				RTPTime t(p->GetNTPTimestamp());
-				
+
 				fprintf(f,"  SR packet\n    SSRC %27u\n",p->GetSenderSSRC());
 				fprintf(f,"    NTP timestamp: %10u.%06u\n    RTP timestamp: %17u\n    Packets sent: %18u\n    Octets sent: %19u\n",t.GetSeconds(),t.GetMicroSeconds(),p->GetRTPTimestamp(),p->GetSenderPacketCount(),p->GetSenderOctetCount());
-					
+
 				for (int i = 0 ; i < p->GetReceptionReportCount() ; i++)
 					fprintf(f,"    RR block %d\n      SSRC %25u\n      Fraction lost: %15d\n      Packets lost: %16d\n      Ext. high. seq. nr: %10u\n      Jitter: %22u\n      LSR: %25u\n      DLSR: %24u\n",(i+1),
 							p->GetSSRC(i),(int)p->GetFractionLost(i),p->GetLostPacketCount(i),p->GetExtendedHighestSequenceNumber(i),p->GetJitter(i),p->GetLSR(i),
@@ -111,7 +111,7 @@ protected:
 				RTCPRRPacket *p = (RTCPRRPacket *)pack;
 
 				fprintf(f,"  RR packet\n    SSRC %27u\n",p->GetSenderSSRC());
-					
+
 				for (int i = 0 ; i < p->GetReceptionReportCount() ; i++)
 					fprintf(f,"    RR block %d\n      SSRC %25u\n      Fraction lost: %15d\n      Packets lost: %16d\n      Ext. high. seq. nr: %10u\n      Jitter: %22u\n      LSR: %25u\n      DLSR: %24u\n",(i+1),
 							p->GetSSRC(i),(int)p->GetFractionLost(i),p->GetLostPacketCount(i),p->GetExtendedHighestSequenceNumber(i),p->GetJitter(i),p->GetLSR(i),
@@ -121,10 +121,10 @@ protected:
 			{
 				RTCPSDESPacket *p = (RTCPSDESPacket *)pack;
 				char str[1024];
-				
+
 				if (!p->GotoFirstChunk())
 					return;
-				
+
 				do
 				{
 					fprintf(f,"  SDES Chunk:\n");
@@ -167,7 +167,7 @@ protected:
 								strcpy(str,"Unknown ");
 							}
 							fprintf(f,"    %s",str);
-							
+
 							if (p->GetItemType() != RTCPSDESPacket::PRIV)
 							{
 								char str[1024];
@@ -182,12 +182,12 @@ protected:
 			else if (pack->GetPacketType() == RTCPPacket::BYE)
 			{
 				fprintf(f,"  BYE packet:\n");
-				
+
 				RTCPBYEPacket *p = (RTCPBYEPacket *)pack;
-				
+
 				int num = p->GetSSRCCount();
 				int i;
-			
+
 				for (i = 0 ; i < num ; i++)
 					fprintf(f,"    SSRC: %26u\n",p->GetSSRC(i));
 				if (p->HasReasonForLeaving())
@@ -224,8 +224,8 @@ int main(int argc, char *argv[])
 	dest.SetPort((uint16_t)destPort);
 
 	transParams.SetPortbase((uint16_t)portBase);
-	transParams.SetRTPReceiveBuffer(1024*1024);
-	transParams.SetRTCPReceiveBuffer(1024*1024);
+	transParams.SetRTPReceiveBuffer(1920*1024*4);
+	transParams.SetRTCPReceiveBuffer(1920*1024*4);
 	sessParams.SetOwnTimestampUnit(1.0/5.0);
 	sessParams.SetProbationType(RTPSources::NoProbation);
 

@@ -123,32 +123,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-FF_SDL2_visual.o: FF_SDL2_visual.cpp.o
+SDL2_visual.o: SDL2_visual.cpp.o
 
-.PHONY : FF_SDL2_visual.o
+.PHONY : SDL2_visual.o
 
 # target to build an object file
-FF_SDL2_visual.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/FF_SDL2_visual.cpp.o
-.PHONY : FF_SDL2_visual.cpp.o
+SDL2_visual.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SDL2_visual.cpp.o
+.PHONY : SDL2_visual.cpp.o
 
-FF_SDL2_visual.i: FF_SDL2_visual.cpp.i
+SDL2_visual.i: SDL2_visual.cpp.i
 
-.PHONY : FF_SDL2_visual.i
+.PHONY : SDL2_visual.i
 
 # target to preprocess a source file
-FF_SDL2_visual.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/FF_SDL2_visual.cpp.i
-.PHONY : FF_SDL2_visual.cpp.i
+SDL2_visual.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SDL2_visual.cpp.i
+.PHONY : SDL2_visual.cpp.i
 
-FF_SDL2_visual.s: FF_SDL2_visual.cpp.s
+SDL2_visual.s: SDL2_visual.cpp.s
 
-.PHONY : FF_SDL2_visual.s
+.PHONY : SDL2_visual.s
 
 # target to generate assembly for a file
-FF_SDL2_visual.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/FF_SDL2_visual.cpp.s
-.PHONY : FF_SDL2_visual.cpp.s
+SDL2_visual.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SDL2_visual.cpp.s
+.PHONY : SDL2_visual.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... FF_SDL2_visual.o"
-	@echo "... FF_SDL2_visual.i"
-	@echo "... FF_SDL2_visual.s"
+	@echo "... SDL2_visual.o"
+	@echo "... SDL2_visual.i"
+	@echo "... SDL2_visual.s"
 .PHONY : help
 
 

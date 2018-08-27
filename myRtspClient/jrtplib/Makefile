@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roy/delete/myRtspClient/myRtspClient
+CMAKE_SOURCE_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roy/delete/myRtspClient/myRtspClient
+CMAKE_BINARY_DIR = /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/myRtspClient/CMakeFiles /home/roy/delete/myRtspClient/myRtspClient/jrtplib/CMakeFiles/progress.marks
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/myRtspClient/myRtspClient/CMakeFiles 0
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/CMakeFiles/progress.marks
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/clean
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/preinstall
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/preinstall
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(MAKE) -f CMakeFiles/Makefile2 jrtplib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/roy/delete/myRtspClient/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

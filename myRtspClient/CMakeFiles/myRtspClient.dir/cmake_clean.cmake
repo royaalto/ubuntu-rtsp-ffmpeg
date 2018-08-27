@@ -12,9 +12,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/myRtspClient.dir/rtspClient.cpp.o"
   "CMakeFiles/myRtspClient.dir/sdp_data.cpp.o"
   "CMakeFiles/myRtspClient.dir/utils.cpp.o"
-  "CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o"
-  "CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o"
-  "CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o"
+  "CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o"
+  "CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o"
+  "CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o"
   "libmyRtspClient.pdb"
   "libmyRtspClient.so"
 )

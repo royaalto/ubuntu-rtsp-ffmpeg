@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DmyRtspClient_EXPORTS
 
-CXX_INCLUDES = -I/home/roy/delete/myRtspClient/myRtspClient/../third_party/Base64_live555/include -I/home/roy/delete/myRtspClient/myRtspClient/../third_party/md5/include -I/home/roy/delete/myRtspClient/myRtspClient/../third_party/JRTPLIB/src -I/home/roy/delete/myRtspClient/myRtspClient/include -I/home/roy/delete/myRtspClient/myRtspClient/jrtplib/src 
+CXX_INCLUDES = -I/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/../third_party/Base64_live555/include -I/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/../third_party/md5/include -I/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/../third_party/JRTPLIB/src -I/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/include -I/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/src 
 

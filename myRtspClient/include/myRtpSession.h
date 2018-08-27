@@ -34,7 +34,7 @@
 #define RTP_OK      1
 #define RTP_ERROR   0
 
-#define USLEEP_UNIT     10000
+#define USLEEP_UNIT     500
 
 typedef void (*DESTROIED_RTP_CLBK) ();
 
@@ -71,10 +71,10 @@ class MyRTPSession : public RTPSession
 		virtual int IsError(int rtperr)
 		{
 			if (rtperr < 0)
-			{   
+			{
 				std::cout << "ERROR: " << RTPGetErrorString(rtperr) << std::endl;
 				return RTP_ERROR;
-			}   
+			}
 			return RTP_OK;
 		}
 

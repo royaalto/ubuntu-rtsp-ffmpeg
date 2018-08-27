@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/roy/delete/ubuntu-rtsp-ffmpeg/FF_SDL2_visual.cpp" "/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/test.dir/FF_SDL2_visual.cpp.o"
+  "/home/roy/delete/ubuntu-rtsp-ffmpeg/SDL2_visual.cpp" "/home/roy/delete/ubuntu-rtsp-ffmpeg/CMakeFiles/test.dir/SDL2_visual.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

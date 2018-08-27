@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/FF_SDL2_visual.cpp.o"
+  "CMakeFiles/test.dir/SDL2_visual.cpp.o"
   "test.pdb"
   "test"
 )

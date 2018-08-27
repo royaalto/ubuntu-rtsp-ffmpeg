@@ -23,7 +23,7 @@
 #define RTP_OK 		1
 #define RTP_ERROR 	0
 
-#define USLEEP_UNIT 	10000
+#define USLEEP_UNIT 	500
 
 using namespace jrtplib;
 
@@ -67,7 +67,7 @@ int MyRTPTCPSession::MyRTP_SetUp(MediaSession * media_session, SocketType tunnel
 	// IMPORTANT: The local timestamp unit MUST be set, otherwise
 	//            RTCP Sender Report info will be calculated wrong
 	// In this case, we'll be just use 8000 samples per second.
-	sessparams.SetOwnTimestampUnit(1.0/media_session->TimeRate);         
+	sessparams.SetOwnTimestampUnit(1.0/media_session->TimeRate);
 
 	sessparams.SetAcceptOwnPackets(true);
 
@@ -83,8 +83,8 @@ int MyRTPTCPSession::MyRTP_SetUp(MediaSession * media_session, SocketType tunnel
 	// TODO: use a valueable instead of "65535"
 	// transparams.Create(65535, 0);
 
-	// status = Create(sessparams,&transparams, RTPTransmitter::TCPProto);  
-	status = MyTcpCreate(sessparams,&transparams);  
+	// status = Create(sessparams,&transparams, RTPTransmitter::TCPProto);
+	status = MyTcpCreate(sessparams,&transparams);
     TunnellingSock = tunnelling_sock;
 	AddDestination(RTPTCPAddress(tunnelling_sock));
 	return IsError(status);
@@ -95,8 +95,8 @@ void MyRTPTCPSession::MyRTP_Teardown(MediaSession * media_session, struct timeva
 	struct timeval Timeout;
 
 	if(!tval) {
-		Timeout.tv_sec = 1; 
-		Timeout.tv_usec = 0; 
+		Timeout.tv_sec = 1;
+		Timeout.tv_usec = 0;
 	} else {
 		Timeout.tv_sec = tval->tv_sec;
 		Timeout.tv_usec = tval->tv_usec;
@@ -130,7 +130,7 @@ uint8_t * MyRTPTCPSession::GetMyRTPData(uint8_t * data_buf, size_t * size, unsig
             UnlockSocket();
 
         }
-#endif 
+#endif
 
 		BeginDataAccess();
 
@@ -203,7 +203,7 @@ uint8_t * MyRTPTCPSession::GetMyRTPPacket(uint8_t * packet_buf, size_t * size, u
 #ifndef RTP_SUPPORT_THREAD
 		int status = Poll();
 		if(!IsError(status)) return NULL;
-#endif 
+#endif
 
 		BeginDataAccess();
 
@@ -280,7 +280,7 @@ bool MyRTPTCPSession::TryLockSocket()
 int MyRTPTCPSession::MyTcpCreate(const RTPSessionParams &sessparams,const RTPTransmissionParams *transparams)
 {
 	int status;
-	
+
 	if (created)
 		return ERR_RTP_SESSION_ALREADYCREATED;
 
@@ -291,17 +291,17 @@ int MyRTPTCPSession::MyTcpCreate(const RTPSessionParams &sessparams,const RTPTra
 
 	useSR_BYEifpossible = sessparams.GetSenderReportForBYE();
 	sentpackets = false;
-	
+
 	// Check max packet size
-	
+
 	if ((maxpacksize = sessparams.GetMaximumPacketSize()) < RTP_MINPACKETSIZE)
 		return ERR_RTP_SESSION_MAXPACKETSIZETOOSMALL;
-		
+
 	// Initialize the transmission component
-	
+
 	rtptrans = 0;
     rtptrans = RTPNew(GetMemoryManager(),RTPMEM_TYPE_CLASS_RTPTRANSMITTER) MyTCPTransmitter(GetMemoryManager());
-	
+
 	if (rtptrans == 0)
 		return ERR_RTP_OUTOFMEM;
 	if ((status = rtptrans->Init(needthreadsafety)) < 0)
@@ -381,7 +381,7 @@ void MyRTPTCPSession::OnBYEPacket(RTPSourceData *dat)
 	std::cout << "Deleting destination" << std::endl;
 	if(DestroiedClbk) {
 		DestroiedClbk();
-	} 
+	}
 }
 
 void MyRTPTCPSession::OnRemoveSource(RTPSourceData *dat)

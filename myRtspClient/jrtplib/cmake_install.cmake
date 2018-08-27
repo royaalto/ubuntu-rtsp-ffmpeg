@@ -1,4 +1,4 @@
-# Install script for directory: /home/roy/delete/myRtspClient/third_party/JRTPLIB
+# Install script for directory: /home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/JRTPLIB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/cmake/JRTPLIB" TYPE FILE FILES "/home/roy/delete/myRtspClient/myRtspClient/jrtplib/cmake/JRTPLIBConfig.cmake")
+file(INSTALL DESTINATION "/usr/local/lib/cmake/JRTPLIB" TYPE FILE FILES "/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/cmake/JRTPLIBConfig.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,12 +58,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/roy/delete/myRtspClient/myRtspClient/jrtplib/pkgconfig/jrtplib.pc")
+file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/pkgconfig/jrtplib.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/roy/delete/myRtspClient/myRtspClient/jrtplib/src/cmake_install.cmake")
+  include("/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/jrtplib/src/cmake_install.cmake")
 
 endif()
 

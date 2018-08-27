@@ -53,15 +53,15 @@ set(rtsplib
 )
 
 
-add_executable(test ${CMAKE_CURRENT_BINARY_DIR}/FF_SDL2_visual.cpp)
+add_executable(test ${CMAKE_CURRENT_BINARY_DIR}/SDL2_visual.cpp)
 
 #link to the lib
 target_link_libraries(test
         ${rtsplib}
         ${OPENCV_LIBS}
         ${FFMPEG_LIBS}
-		${SDL_LIBRARIES}
-		${SDL_IMAGE_LIBRARY}
+	${SDL_LIBRARIES}
+	${SDL_IMAGE_LIBRARY}
         opencv_core opencv_imgcodecs opencv_highgui opencv_imgproc opencv_calib3d opencv_videoio
         -lm
         -lz

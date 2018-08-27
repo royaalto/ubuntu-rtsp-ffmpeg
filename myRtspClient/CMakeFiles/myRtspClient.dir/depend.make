@@ -42,16 +42,16 @@ CMakeFiles/myRtspClient.dir/MediaSession.cpp.o: include/nalu_types.h
 CMakeFiles/myRtspClient.dir/MediaSession.cpp.o: jrtplib/src/rtpconfig.h
 CMakeFiles/myRtspClient.dir/MediaSession.cpp.o: jrtplib/src/rtptypes.h
 
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o: ../third_party/Base64_live555/include/Base64.hh
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o: ../third_party/Base64_live555/include/Boolean.hh
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o: ../third_party/Base64_live555/include/strDup.hh
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp.o: /home/roy/delete/myRtspClient/third_party/Base64_live555/Base64.cpp
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o: ../third_party/Base64_live555/include/Base64.hh
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o: ../third_party/Base64_live555/include/Boolean.hh
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o: ../third_party/Base64_live555/include/strDup.hh
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp.o: /home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/Base64.cpp
 
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o: ../third_party/Base64_live555/include/strDup.hh
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp.o: /home/roy/delete/myRtspClient/third_party/Base64_live555/strDup.cpp
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o: ../third_party/Base64_live555/include/strDup.hh
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp.o: /home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/Base64_live555/strDup.cpp
 
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o: ../third_party/md5/include/md5.h
-CMakeFiles/myRtspClient.dir/home/roy/delete/myRtspClient/third_party/md5/md5.cpp.o: /home/roy/delete/myRtspClient/third_party/md5/md5.cpp
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o: ../third_party/md5/include/md5.h
+CMakeFiles/myRtspClient.dir/home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp.o: /home/roy/delete/ubuntu-rtsp-ffmpeg/third_party/md5/md5.cpp
 
 CMakeFiles/myRtspClient.dir/mpeg4_types.cpp.o: mpeg4_types.cpp
 CMakeFiles/myRtspClient.dir/mpeg4_types.cpp.o: include/audio_type_base.h

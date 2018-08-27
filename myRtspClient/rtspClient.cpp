@@ -1990,6 +1990,7 @@ uint8_t * RtspClient::GetVideoData(MediaSession * media_session, uint8_t * buf, 
 		}
 		int NT;
 		NT = NALUTypeBaseTmp->ParseNALUHeader_Type(VideoBuffer.Buf);
+		std::cout<<"___________NT_________"<<NT<<std::endl;
 		// printf("debug: %d:%d", PM, NT);
 		NALUType = NALUTypeBaseTmp->GetNaluRtpType(PM, NT);
 		if(NULL == NALUType) {

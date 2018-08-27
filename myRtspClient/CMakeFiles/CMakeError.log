@@ -1,0 +1,76 @@
+Determining if the include file sys/filio.h exists failed with the following output:
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_822bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_822bd.dir/build.make CMakeFiles/cmTC_822bd.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_822bd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_822bd.dir/CheckIncludeFile.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:23: fatal error: sys/filio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_822bd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_822bd.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_822bd.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_822bd/fast' failed
+make: *** [cmTC_822bd/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1f6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1f6b.dir/build.make CMakeFiles/cmTC_f1f6b.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1f6b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f1f6b.dir/CheckIncludeFile.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:24: fatal error: sys/sockio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_f1f6b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f1f6b.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f1f6b.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f1f6b/fast' failed
+make: *** [cmTC_f1f6b/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test JRTPLIB_SNPRINTF_S failed with the following output:
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab4c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab4c8.dir/build.make CMakeFiles/cmTC_ab4c8.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab4c8.dir/src.cxx.o
+/usr/bin/c++    -DJRTPLIB_SNPRINTF_S   -o CMakeFiles/cmTC_ab4c8.dir/src.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/src.cxx
+/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/src.cxx:1:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ab4c8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ab4c8.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ab4c8.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ab4c8/fast' failed
+make: *** [cmTC_ab4c8/fast] Error 2
+
+Source file was:
+#include <windows.h>
+#include <stdio.h>
+int main(void) { char s[1024]; _snprintf_s(s, 1024,"%d", 10);
+  return 0; }
+Performing C++ SOURCE FILE Test JRTPLIB_SNPRINTF failed with the following output:
+Change Dir: /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea289/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea289.dir/build.make CMakeFiles/cmTC_ea289.dir/build
+make[1]: Entering directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea289.dir/src.cxx.o
+/usr/bin/c++    -DJRTPLIB_SNPRINTF   -o CMakeFiles/cmTC_ea289.dir/src.cxx.o -c /home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/src.cxx
+/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp/src.cxx:1:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ea289.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ea289.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ea289.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/roy/delete/ubuntu-rtsp-ffmpeg/myRtspClient/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea289/fast' failed
+make: *** [cmTC_ea289/fast] Error 2
+
+Source file was:
+#include <windows.h>
+#include <stdio.h>
+int main(void) { char s[1024]; _snprintf(s, 1024,"%d", 10);
+  return 0; }
